@@ -157,8 +157,110 @@ $(function () {
     });
 
 
+    //=======BLOG SLIDER======
+    $('.blog_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
+    //=======BRAND SLIDER======
+    $('.brand_slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
+    //*=======SCROLL BUTTON=======
+    $('.wsus__scroll_btn').on('click', function () {
+        $('html, body').animate({
+            scrollTop: 0,
+        }, 300);
+    });
+
+    $(window).on('scroll', function () {
+        var scrolling = $(this).scrollTop();
+
+        if (scrolling > 300) {
+            $('.wsus__scroll_btn').fadeIn();
+        } else {
+            $('.wsus__scroll_btn').fadeOut();
+        }
+    });
 
 
 
