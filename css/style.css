@@ -64,6 +64,10 @@ textarea {
     border-radius: 3px;
     font-size: 16px;
     font-weight: 300;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 input::placeholder,
@@ -120,6 +124,7 @@ button {
 .common_btn:focus {
     animation: pulse 1s;
     box-shadow: 0 0 0 1em transparent;
+    -webkit-animation: pulse 1s;
 }
 
 @keyframes pulse {
@@ -349,6 +354,15 @@ button {
     align-items: center;
 }
 
+.main_menu .navbar-nav .nav-item {
+    position: relative;
+    margin-right: 50px;
+}
+
+.main_menu .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
 .main_menu .navbar-nav .nav-item .nav-link {
     font-size: 17px;
     text-transform: capitalize;
@@ -357,13 +371,11 @@ button {
     color: #222222;
     margin: 0;
     padding: 0;
-    margin-left: 50px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-    position: relative;
 }
 
 .main_menu .navbar-nav .nav-item .nav-link::after {
@@ -388,12 +400,12 @@ button {
     -o-transition: all linear .3s;
 }
 
-.main_menu .navbar-nav .nav-item .nav-link:hover,
+.main_menu .navbar-nav .nav-item:hover .nav-link,
 .main_menu .navbar-nav .nav-item .nav-link.active {
     color: var(--colorPrimary);
 }
 
-.main_menu .navbar-nav .nav-item .nav-link:hover::after,
+.main_menu .navbar-nav .nav-item:hover .nav-link::after,
 .main_menu .navbar-nav .nav-item .nav-link.active::after {
     opacity: 1;
     transform: scale(1);
@@ -410,6 +422,92 @@ button {
 .menu_fix {
     background: var(--colorWhite);
     box-shadow: rgb(99 99 99 / 10%) 0px 2px 8px 0px;
+}
+
+.tf__droap_menu {
+    position: absolute;
+    background: var(--colorWhite);
+    width: 220px;
+    max-height: 550px;
+    overflow: hidden;
+    overflow-y: auto;
+    line-height: 50px;
+    border-top: 1px solid #eee;
+    box-shadow: var(--box-shadow);
+    transition: all linear .2s;
+    transform: scaleY(.8);
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top;
+    -webkit-transform: scaleY(.8);
+    -moz-transform: scaleY(.8);
+    -ms-transform: scaleY(.8);
+    -o-transform: scaleY(.8);
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+.main_menu .tf__droap_menu::-webkit-scrollbar {
+    scrollbar-width: thin !important;
+    background: #ddd;
+    width: 6px;
+}
+
+.main_menu .tf__droap_menu::-webkit-scrollbar-thumb {
+    background: var(--colorPrimary);
+}
+
+.main_menu .navbar-nav .nav-item:hover .tf__droap_menu {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.tf__droap_menu li a {
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding-left: 20px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__droap_menu li a::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: var(--colorWhite);
+    top: 0;
+    left: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__droap_menu li a:hover {
+    color: var(--colorPrimary);
+    padding-left: 25px;
+    background: #ff7f460f;
+}
+
+.tf__droap_menu li a:hover::after {
+    width: 5px;
+    background: var(--colorPrimary);
 }
 
 /*-----MENU END-----*/
@@ -597,6 +695,10 @@ button {
     -moz-transform: skewX(-10deg);
     -ms-transform: skewX(-10deg);
     -o-transform: skewX(-10deg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .tf__single_category_text::after {
@@ -2789,8 +2891,6 @@ button {
 /*==================================
     SERVICES PAGE START
 ==================================*/
-.tf__services_page {}
-
 .tf__single_services {
     background: url(../images/service_bg.jpg);
     background-position: center;
@@ -3155,12 +3255,9 @@ button {
 ==================================*/
 
 
-
 /*==================================
     TEAM DETAILS START
 ==================================*/
-.tf__team_details_page {}
-
 .tf__team_details_img {
     height: 460px;
     border-radius: 50px;
@@ -3223,12 +3320,6 @@ button {
 .tf__team_details_text ul li a:hover {
     color: var(--colorPrimary);
 }
-
-.tf__team_description {}
-
-.tf__team_description p {}
-
-.tf__team_description ul {}
 
 .tf__team_description ul li {
     width: 50%;
@@ -3323,8 +3414,6 @@ button {
 /*==================================
     EVENT DETAILS PAGE START
 ==================================*/
-.tf__event_details {}
-
 .tf__event_details_img {
     height: 500px;
     border-radius: 50px;
@@ -3382,12 +3471,6 @@ button {
     line-height: 35px;
     margin-top: 35px;
 }
-
-.tf__event_details_text h4 {}
-
-.tf__event_details_text h5 {}
-
-.tf__event_details_text h6 {}
 
 .tf__event_det_center_img {
     height: 570px;

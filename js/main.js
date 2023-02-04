@@ -250,6 +250,7 @@ $(function () {
         }, 300);
     });
 
+
     $(window).on('scroll', function () {
         var scrolling = $(this).scrollTop();
 
@@ -312,7 +313,12 @@ $(function () {
     //*========STICKY SIDEBAR=======
     $("#sticky_sidebar").stickit({
         top: 90,
-    })
+    });
+
+
+    //*==========WOW JS==========
+    new WOW().init();
+
 
 
 });
