@@ -320,5 +320,81 @@ $(function () {
     new WOW().init();
 
 
+    //======MENU 2 FIX JS======
+    if ($('.main_menu_2').offset() != undefined) {
+        var navoff = $('.main_menu_2').offset().top;
+        $(window).scroll(function () {
+            var scrolling = $(this).scrollTop();
+
+            if (scrolling > navoff) {
+                $('.main_menu_2').addClass('menu_fix2');
+            } else {
+                $('.main_menu_2').removeClass('menu_fix2');
+            }
+        });
+    };
+
+
+    //==========BARFILLER JS===========
+    $(document).ready(function () {
+        $('#bar1').barfiller();
+        $('#bar2').barfiller();
+        $('#bar3').barfiller();
+        $('#bar4').barfiller();
+    });
+
+
+
+    //=======TESTI SLIDER 2======
+    $('.testi_slider_2').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
+
+
+
+
+
+
+
 
 });
