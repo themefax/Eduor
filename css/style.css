@@ -60,7 +60,7 @@ textarea {
     padding: 12px 20px;
     outline: none;
     resize: none;
-    border: 1px solid #E4E7E9;
+    border: 1px solid #ddd;
     border-radius: 3px;
     font-size: 16px;
     font-weight: 300;
@@ -1348,6 +1348,10 @@ button {
     margin-top: 30px;
 }
 
+.slick-dots li {
+    line-height: 0;
+}
+
 .testi_slider_2 .slick-dots li button,
 .popular_service_slider .slick-dots li button,
 .blog_slider .slick-dots li button,
@@ -1741,10 +1745,6 @@ button {
     padding-bottom: 53px;
 }
 
-.work_slider .slick-dots {
-    margin-top: 35px;
-}
-
 /*----- WORK END-----*/
 
 
@@ -2120,35 +2120,6 @@ button {
 }
 
 /*----- BLOG END-----*/
-
-/*----- BRAND SLIDER START-----*/
-.tf__brand_slider {
-    border-top: 1px solid #eee;
-}
-
-.tf__single_brand_slider {
-    margin: 0px 12px;
-    border: 1px solid #99919121;
-    border-radius: 5px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.tf__single_brand_slider img {
-    width: 100px !important;
-    height: 100px !important;
-    margin: 0 auto;
-}
-
-.tf__single_brand_slider:hover {
-    border-color: var(--colorPrimary);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-/*----- BRAND SLIDER END-----*/
 
 /*----- FOOTER START-----*/
 .tf__footer {
@@ -2951,219 +2922,6 @@ button {
 
 
 /*==================================
-    SERVICES PAGE START
-==================================*/
-.tf__single_services {
-    background: url(../images/service_bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px;
-    margin-top: 75px;
-    text-align: center;
-    border-radius: 5px;
-    position: relative;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.tf__single_services::after {
-    position: absolute;
-    content: "";
-    background: #f3f7fb;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transition: all linear .3s;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.tf__single_services::before {
-    position: absolute;
-    content: "";
-    background: url(../images/service_shapes.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 60px;
-    height: 60px;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    transition: all linear .2s;
-    -webkit-transition: all linear .2s;
-    -moz-transition: all linear .2s;
-    -ms-transition: all linear .2s;
-    -o-transition: all linear .2s;
-}
-
-.tf__single_services span {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    border-radius: 50%;
-    display: block;
-    background: var(--colorPrimary);
-    color: var(--colorPrimary);
-    font-size: 40px;
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    z-index: 1;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.tf__single_services span::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: var(--colorWhite);
-    top: 3px;
-    left: 0;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    z-index: -1;
-    transition: all linear .3s;
-}
-
-
-.tf__single_services h3 {
-    font-size: 22px;
-    font-weight: 700;
-    text-transform: capitalize;
-    margin-top: 25px;
-    margin-bottom: 18px;
-    position: relative;
-    z-index: 1;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.tf__single_services p {
-    position: relative;
-    z-index: 1;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
-
-.tf__single_services a {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background: var(--colorWhite);
-    border-radius: 50%;
-    color: var(--colorPrimary);
-    margin-top: 27px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: relative;
-    z-index: 1;
-}
-
-.tf__single_services:hover::after {
-    opacity: 0;
-}
-
-.tf__single_services:hover h3,
-.tf__single_services:hover p {
-    color: var(--colorWhite);
-}
-
-.tf__single_services:hover span {
-    background: var(--colorWhite);
-    color: var(--colorWhite);
-}
-
-.tf__single_services:hover span::after {
-    background: var(--colorPrimary);
-    top: -3px;
-}
-
-.tf__single_services:hover::before {
-    opacity: 0;
-}
-
-.tf__pagination nav ul {
-    justify-content: center;
-}
-
-.tf__pagination nav ul li a {
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    padding: 0;
-    margin: 0px 10px;
-    border-radius: 5px !important;
-    color: var(--colorBlack);
-    font-size: 16px;
-    font-weight: 500;
-    background: var(--colorWhite);
-    border: 1px solid #eee;
-    box-shadow: var(--box-shadow);
-    font-family: var(--paraFont);
-}
-
-.tf__pagination nav ul li a:focus {
-    color: var(--colorBlack);
-    background-color: var(--colorWhite);
-    outline: 0;
-    box-shadow: none;
-    border: 1px solid var(--colorPrimary);
-}
-
-.tf__pagination nav ul li a:hover,
-.tf__pagination nav ul li a.active {
-    background: var(--colorPrimary);
-    color: var(--colorWhite);
-    border-color: var(--colorPrimary);
-}
-
-/*==================================
-    SERVICES PAGE END
-==================================*/
-
-
-
-/*==================================
     TEAM PAGE START
 ==================================*/
 .tf__team_page {
@@ -3310,6 +3068,42 @@ button {
 .tf__single_team:hover .tf__single_team_img ul {
     transform: scale(1);
     opacity: 1;
+}
+
+.tf__pagination nav ul {
+    justify-content: center;
+}
+
+.tf__pagination nav ul li a {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    margin: 0px 10px;
+    border-radius: 5px !important;
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 500;
+    background: var(--colorWhite);
+    border: 1px solid #eee;
+    box-shadow: var(--box-shadow);
+    font-family: var(--paraFont);
+}
+
+.tf__pagination nav ul li a:focus {
+    color: var(--colorBlack);
+    background-color: var(--colorWhite);
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid var(--colorPrimary);
+}
+
+.tf__pagination nav ul li a:hover,
+.tf__pagination nav ul li a.active {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    border-color: var(--colorPrimary);
 }
 
 /*==================================
@@ -3596,7 +3390,8 @@ button {
 /*==================================
     BLOG DETAILS PAGE START
 ==================================*/
-.tf__blog_details_img {
+.tf__blog_details_img,
+.tf__courses_details_img {
     height: 450px;
     overflow: hidden;
 }
@@ -3770,6 +3565,7 @@ button {
 
 .tf__comment_reply {
     background: #f3f7fb;
+    border: 1px solid #eee;
     padding: 50px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -3814,7 +3610,7 @@ button {
 .sidebar_item {
     border: 1px solid #ddd;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .sidebar_item h3 {
@@ -3855,7 +3651,6 @@ button {
     background: #f3f7fb;
     padding: 50px;
     margin-top: 50px;
-    border-radius: 5px;
     text-align: center;
 }
 
@@ -4116,7 +3911,7 @@ button {
 }
 
 .tf__error_text p {
-    margin: 25px 0px;
+    margin: 10px 0px 25px 0px;
 }
 
 .tf__error_text a {
@@ -4577,28 +4372,177 @@ button {
 
 /* about 2 end */
 
-/* popular services 2 start */
-.tf__popular_services_2 {}
+/* services start */
+.tf__single_services {
+    background: url(../images/service_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    margin-top: 75px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
-.tf__popular_services_2 .tf__single_services span {
+.tf__single_services::after {
+    position: absolute;
+    content: "";
+    background: #f3f7fb;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all linear .3s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__single_services::before {
+    position: absolute;
+    content: "";
+    background: url(../images/service_shapes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    -moz-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -o-transition: all linear .2s;
+}
+
+.tf__single_services span {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
     background: var(--colorBlue);
     color: var(--colorBlue);
+    font-size: 40px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
-.tf__popular_services_2 .tf__single_services a {
+.tf__single_services span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--colorWhite);
+    top: 3px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+    transition: all linear .3s;
+}
+
+
+.tf__single_services h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__single_services p {
+    position: relative;
+    z-index: 1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__single_services a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: var(--colorWhite);
+    border-radius: 50%;
     color: var(--colorBlue);
+    margin-top: 27px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    z-index: 1;
 }
 
-.tf__popular_services_2 .tf__single_services:hover span {
-    background: var(--colorWhite) !important;
-    color: var(--colorWhite) !important;
+.tf__single_services:hover::after {
+    opacity: 0;
 }
 
-.tf__popular_services_2 .tf__single_services:hover span::after {
+.tf__single_services:hover h3,
+.tf__single_services:hover p {
+    color: var(--colorWhite);
+}
+
+.tf__single_services:hover span {
+    background: var(--colorWhite);
+    color: var(--colorWhite);
+}
+
+.tf__single_services:hover span::after {
     background: var(--colorBlue);
+    top: -3px;
 }
 
-/* popular services 2 end */
+.tf__single_services:hover::before {
+    opacity: 0;
+}
+
+/* services end */
+
 
 
 /* upcoming event start */
@@ -4769,6 +4713,10 @@ button {
     background: #002f6c;
 }
 
+.testi_slider_2 .slick-dots {
+    margin-top: 35px;
+}
+
 /* testimonial 2 end */
 
 
@@ -4843,8 +4791,6 @@ button {
 
 
 /* blog 2 start */
-.tf__blog_2 {}
-
 .tf__blog_2 .tf__single_blog_img {
     height: 350px;
 }
@@ -4861,13 +4807,6 @@ button {
 .tf__blog_2 .tf__single_blog_text .read_btn i {
     color: var(--colorBlue);
 }
-
-
-
-
-
-
-
 
 .tf__single_blog_2 {
     padding: 10px;
@@ -5124,6 +5063,371 @@ button {
 ==================================*/
 
 
+/*==================================
+    CONTACT PAGE START
+==================================*/
+.tf__contact_form p {
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+.tf__contact_form form input,
+.tf__contact_form form textarea {
+    margin-bottom: 25px;
+}
+
+.tf__contact_form form button {
+    margin-top: 20px;
+}
+
+.tf__contact_text {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 45px 45px 0px 45px;
+    position: relative;
+    margin-top: 5px;
+}
+
+.tf__contact_text::after {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 6px;
+    background: var(--colorPrimary);
+    top: -3px;
+    left: 50%;
+    border-radius: 100px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.tf__contact_single {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.tf__contact_single .icon {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    border-radius: 50%;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.tf__contact_single .icon.blue {
+    background: var(--colorBlue);
+}
+
+.tf__contact_single .icon.orange {
+    background: var(--colorPrimary);
+}
+
+.tf__contact_single .icon.green {
+    background: var(--colorGreen);
+}
+
+.tf__contact_single .text {
+    max-width: 70%;
+}
+
+.tf__contact_single .text h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.tf__contact_single .text a,
+.tf__contact_single .text p {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--paraColor);
+}
+
+.tf__contact_map {
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.tf__contact_map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*==================================
+    CONTACT PAGE END
+==================================*/
+
+
+/*==================================
+    COURSES DETAILS START
+==================================*/
+.tf__courses_details_img {
+
+    margin-bottom: 25px;
+}
+
+.tf__courses_details_header {
+    padding: 15px;
+    background: var(--colorWhite);
+    box-shadow: var(--box-shadow);
+    /* border-radius: 5px; */
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.tf__courses_details_header .img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #eee;
+}
+
+.tf__courses_details_header .text {
+    width: 92.7%;
+}
+
+.tf__courses_details_header .text li {
+    border-right: 1px solid #ddd;
+    width: 20%;
+    text-align: center;
+}
+
+.tf__courses_details_header .text li:last-child {
+    border: none;
+}
+
+.tf__courses_details_header .text li h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.tf__courses_details_header .text li p {
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.tf__courses_details_header .text li a {
+    padding: 10px 25px !important;
+    font-size: 15px !important;
+}
+
+.tf__courses_det_text h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.tf__courses_det_text .nav {
+    border-bottom: 2px solid #ddd;
+    margin: 30px 0px 35px 0px;
+    padding-bottom: 10px;
+}
+
+.tf__courses_det_text .nav li button {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    padding: 0;
+    background: var(--colorWhite) !important;
+    border-radius: 0;
+    margin-right: 50px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__courses_det_text .nav li button::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    bottom: -12px;
+    left: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__courses_det_text .nav li button:hover,
+.tf__courses_det_text .nav li button.active {
+    color: var(--colorPrimary);
+}
+
+.tf__courses_det_text .nav li button.active::after {
+    background: var(--colorPrimary);
+}
+
+.tf__course_overview h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.tf__course_overview p {
+    margin-top: 25px;
+}
+
+.tf__course_overview ul,
+.tf__course_overview ol {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tf__course_overview ul li,
+.tf__course_overview ol li {
+    margin-top: 15px;
+    width: 48%;
+    padding-left: 25px;
+    position: relative;
+}
+
+.tf__course_overview ul li::after,
+.tf__course_overview ol li::after {
+    position: absolute;
+    content: "";
+    background: url(../images/check_icon_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    top: 4px;
+    left: 0;
+}
+
+.tf__course_instructor_img {
+    height: 350px;
+}
+
+.tf__course_instructor_text {
+    background: var(--colorWhite);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
+.tf__course_instructor_text h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.tf__course_instructor_text p {
+    width: 100%;
+    margin-top: 13px;
+    color: var(--paraColor);
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tf__course_instructor_text p span {
+    color: var(--ratingColor);
+    margin-right: 10px;
+}
+
+.tf__course_instructor_text .social_media {
+    margin-top: 23px;
+}
+
+.tf__course_instructor_text ul {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.tf__course_instructor_text ul li a {
+    font-size: 16px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff7f4614;
+    color: var(--colorPrimary);
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__course_instructor_text ul li a:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.tf__courses_review .tf__single_comment_text h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tf__courses_review .tf__single_comment_text h4 span {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--paraColor);
+}
+
+.tf__courses_review .tf__single_comment_text .rating {
+    font-size: 16px;
+    color: var(--ratingColor);
+    margin-top: 10px;
+}
+
+.tf__courses_review .tf__comment_reply p {
+    color: var(--ratingColor);
+}
+
+.tf__courses_review .tf__comment_reply p span {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    margin-right: 5px;
+}
+
+.tf__courses_review .tf__comment_reply p i {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/*==================================
+    COURSES DETAILS END
+==================================*/
 
 
 /*==================================
