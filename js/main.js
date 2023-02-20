@@ -1,20 +1,16 @@
 $(function () {
-
     "use strict";
 
     //======MENU FIX JS======
     if ($('.main_menu').offset() != undefined) {
-        var navoff = $('.main_menu').offset().top;
-        $(window).scroll(function () {
-            var scrolling = $(this).scrollTop();
-
-            if (scrolling > navoff) {
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 50) {
                 $('.main_menu').addClass('menu_fix');
             } else {
                 $('.main_menu').removeClass('menu_fix');
             }
         });
-    };
+    }
 
 
     //=====VENOBOX.JS=====
@@ -320,19 +316,16 @@ $(function () {
     new WOW().init();
 
 
-    //======MENU 2 FIX JS======
+    //=========MENU 2 FIX JS=========   
     if ($('.main_menu_2').offset() != undefined) {
-        var navoff = $('.main_menu_2').offset().top;
-        $(window).scroll(function () {
-            var scrolling = $(this).scrollTop();
-
-            if (scrolling > navoff) {
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 130) {
                 $('.main_menu_2').addClass('menu_fix2');
             } else {
                 $('.main_menu_2').removeClass('menu_fix2');
             }
         });
-    };
+    }
 
 
     //==========BARFILLER JS===========
@@ -389,7 +382,8 @@ $(function () {
     });
 
 
-
+    //======NICE SELECT======
+    $('.select_js').niceSelect();
 
 
 

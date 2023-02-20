@@ -97,7 +97,8 @@ button {
     COMMON CSS START
 ==================================*/
 .common_btn,
-.common_btn_2 {
+.common_btn_2,
+.common_btn_3 {
     padding: 15px 35px !important;
     background: var(--colorPrimary) !important;
     color: var(--colorWhite) !important;
@@ -116,6 +117,12 @@ button {
     -moz-border-radius: 30px !important;
     -ms-border-radius: 30px !important;
     -o-border-radius: 30px !important;
+}
+
+.common_btn::after,
+.common_btn_2::after,
+.common_btn_3::after {
+    display: none;
 }
 
 .common_btn:hover,
@@ -146,6 +153,14 @@ button {
     0% {
         box-shadow: 0 0 0 0 #4583ff8b;
     }
+}
+
+.common_btn_3 {
+    background: var(--colorBlack) !important;
+}
+
+.common_btn_3:hover {
+    background: var(--colorGreen) !important;
 }
 
 .play_btn {
@@ -367,6 +382,11 @@ button {
     padding: 0;
     max-width: 180px;
     height: 55px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .main_menu .navbar-nav {
@@ -444,8 +464,24 @@ button {
 }
 
 .menu_fix {
+    position: fixed !important;
+    top: 0;
+    height: 70px;
     background: var(--colorWhite);
     box-shadow: var(--box-shadow);
+}
+
+.menu_fix .navbar-brand {
+    max-width: 160px;
+    height: 45px;
+}
+
+.menu_fix .navbar-nav {
+    line-height: 70px;
+}
+
+.menu_fix .navbar-nav .nav-item .nav-link::after {
+    bottom: 22px;
 }
 
 .tf__droap_menu {
@@ -573,6 +609,7 @@ button {
     font-family: var(--paraFont);
     position: relative;
     margin-bottom: 23px;
+    z-index: 2;
 }
 
 .tf__banner_text h5::after {
@@ -642,6 +679,7 @@ button {
     }
 }
 
+.tf__banner_3 .tf__banner_text::before,
 .tf__banner::before {
     position: absolute;
     content: "";
@@ -1095,6 +1133,7 @@ button {
     color: var(--colorWhite);
 }
 
+.tf__banner_3 .tf__banner_text::after,
 .tf__faq::after,
 .tf__about::after {
     position: absolute;
@@ -1128,7 +1167,6 @@ button {
     animation: about_animi_1 linear 40s infinite;
     -webkit-animation: about_animi_1 linear 40s infinite;
 }
-
 
 @keyframes about_animi_1 {
     from {
@@ -2230,7 +2268,7 @@ button {
 
 .tf__footer_content form button {
     position: absolute;
-    top: 5px;
+    top: 6px;
     right: 5px;
     background: var(--colorPrimary);
     color: var(--colorWhite);
@@ -2307,7 +2345,7 @@ button {
 }
 
 .tf__scroll_btn:hover {
-    background: var(--colorBlue);
+    background: var(--colorBlack) !important;
 }
 
 @keyframes scroll_amini {
@@ -4478,6 +4516,7 @@ button {
     width: 100%;
     height: 50px;
     background: #00306e;
+    z-index: 1;
 }
 
 .tf__topbar_left {
@@ -4662,9 +4701,10 @@ button {
 }
 
 .tf__header_text ul li .text h4 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: #222;
+    margin-top: 5px;
 }
 
 .tf__header_text ul li .text p {
@@ -4806,7 +4846,7 @@ button {
     background: var(--colorBlue);
     color: var(--colorWhite);
     text-decoration: none;
-    padding: 0px 20px;
+    padding: 0px 20px 5px 20px;
 }
 
 /* banner 2 end */
@@ -4902,6 +4942,10 @@ button {
 .tf__popular_services_2 .tf__single_services span {
     background: var(--colorBlue);
     color: var(--colorBlue);
+}
+
+.tf__popular_services_2 .tf__single_services:hover span {
+    color: var(--colorWhite);
 }
 
 .tf__popular_services_2 .tf__single_services a {
@@ -5123,6 +5167,7 @@ button {
     margin-right: 12px;
 }
 
+.tf__team_3::before,
 .tf__team_2::before {
     position: absolute;
     content: "";
@@ -5429,4 +5474,573 @@ button {
 
 /*==================================
     HOME PAGE 2 END
+==================================*/
+
+
+/*==================================
+    HOME PAGE 3 START
+==================================*/
+/* topbar 2 start */
+.tf__topbar_2 {
+    background: #191e24;
+    position: static;
+}
+
+/* topbar 2 end */
+
+/* main menu 3 start */
+.main_menu_3 {
+    background: var(--colorWhite);
+    position: static;
+}
+
+.main_menu_3 .navbar-nav .nav-item:hover .nav-link,
+.main_menu_3 .navbar-nav .nav-item .nav-link.active {
+    color: var(--colorGreen);
+}
+
+.main_menu_3 .navbar-nav .nav-item .nav-link::after,
+.main_menu_3 .navbar-nav .nav-item .nav-link::after {
+    background: var(--colorGreen);
+}
+
+.main_menu_3 .tf__droap_menu li a.active,
+.main_menu_3 .tf__droap_menu li a:hover {
+    color: var(--colorGreen);
+    background: var(--colorWhite);
+}
+
+.main_menu_3 .tf__droap_menu li a.active::after,
+.main_menu_3 .tf__droap_menu li a:hover::after {
+    background: var(--colorGreen);
+}
+
+.main_menu_3.menu_fix {
+    top: 0;
+}
+
+/* main menu 3 end */
+
+
+/* banner 3 start */
+.tf__banner_3 {
+    position: static;
+    margin: 0;
+    height: auto;
+    background-position: center top !important;
+}
+
+.home_3 .tf__banner_text {
+    margin-top: 115px;
+    margin-bottom: 345px;
+    position: relative;
+}
+
+.home_3 .tf__banner_text h5,
+.home_3 .tf__heading_area h5 {
+    color: var(--colorGreen);
+}
+
+.home_3 .tf__banner_text h5::after,
+.home_3 .tf__heading_area h5::after,
+.home_3 .tf__heading_area h5::before {
+    background: var(--colorGreen);
+}
+
+.home_3 .tf__banner_text h1 span {
+    color: var(--colorGreen) !important;
+}
+
+.home_3 .play_btn {
+    background: var(--colorGreen);
+}
+
+.home_3 .play_btn::before {
+    background: var(--colorGreen);
+}
+
+.tf__banner_3 .tf__banner_text::after {
+    top: 90%;
+    left: 80%;
+}
+
+.tf__banner_3 .tf__banner_text::before {
+    background: url(../images/banner_shape3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    top: -5px;
+    right: 60px;
+}
+
+/* banner 3 end */
+
+
+/* popular service 3 start */
+.tf__popular_services_3 {
+    position: relative;
+    top: -160px;
+}
+
+.tf__popular_services_3 .tf__popular_service_single {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.home_3 .slick-dots li.slick-active button {
+    background: var(--colorGreen) !important;
+}
+
+/* popular service 3 end */
+
+
+/* about 3 start */
+.about_3 {
+    position: relative;
+    top: -60px;
+}
+
+.about_3 .tf__about_us_counter a:hover {
+    background: var(--colorGreen);
+}
+
+/* about 3 end */
+
+
+/* study contact start */
+.tf__study_contact {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding-top: 25px;
+    position: relative;
+    top: -95px;
+}
+
+.tf__study_contact_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 160px 0px 30px 220px;
+}
+
+.tf__study_contact_text .img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.tf__study_contact_text .text {
+    width: 63%;
+    padding-right: 100px;
+}
+
+.tf__study_contact_text .text h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+}
+
+.tf__study_contact_text .text p {
+    color: var(--colorWhite);
+    margin-top: 15px;
+}
+
+.tf__study_contact_text a {
+    padding: 15px 35px;
+    background: var(--colorGreen);
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+    position: relative;
+    font-family: var(--paraFont);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.tf__study_contact_text a:hover {
+    color: var(--colorGreen);
+    background: var(--colorWhite);
+}
+
+/* study contact end */
+
+
+/* courses 3 start */
+.tf__courses_3 .tf__single_courses:hover .tf__single_course_header,
+.tf__courses_3 .tf__single_courses:hover {
+    border-color: var(--colorGreen) !important;
+}
+
+.tf__courses_3 .tf__single_courses_text .title:hover {
+    color: var(--colorGreen) !important;
+}
+
+.tf__courses_3 .tf__single_course_header li i {
+    color: var(--colorGreen);
+}
+
+/* courses 3 end */
+
+
+/* counter 3 start */
+.tf__counter_3_area {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 70px;
+    position: relative;
+    bottom: -240px;
+    z-index: 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.tf__counter_3_area::after {
+    position: absolute;
+    content: "";
+    background: url(../images/counter_3_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 420px;
+    height: 720px;
+    bottom: 0;
+    right: -225px;
+}
+
+.tf__counter_3 .tf__counter_area {
+    padding: 0;
+    background: none !important;
+}
+
+.tf__counter_3 h5,
+.tf__counter_3 h2,
+.tf__counter_3 p {
+    color: var(--colorWhite) !important;
+}
+
+.tf__counter_3 .tf__heading_area h5::after {
+    background: var(--colorWhite);
+}
+
+.tf__counter_3 .tf__counter2_overlay {
+    background: transparent;
+    padding: 65px 0px 0px 0px;
+}
+
+.tf__counter_3 .tf__counter_area ul li.tf__single_counter {
+    width: 33.33%;
+}
+
+.tf__counter_3_area::before {
+    position: absolute;
+    content: "";
+    background: url(../images/banner_shape3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -190px;
+    right: 190px;
+    z-index: 1;
+    width: 165px;
+    height: 160px;
+    animation: banner_animi_2 linear 2s infinite alternate;
+    -webkit-animation: banner_animi_2 linear 2s infinite alternate;
+}
+
+/* counter 3 end */
+
+
+/* team 3 start */
+.tf__team_3 {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    /* top: -295px; */
+}
+
+.tf__team_3 .tf__single_team:hover {
+    background: var(--colorBlack);
+}
+
+.tf__team_3 .tf__single_team_img ul li a {
+    border: 1px solid var(--colorGreen);
+    color: var(--colorGreen);
+}
+
+.tf__team_3 .tf__single_team_img ul li a:hover {
+    background: var(--colorGreen);
+    color: var(--colorWhite);
+}
+
+.tf__team_3 .tf__single_team {
+    margin: 25px 12px 0px 12px;
+}
+
+.tf__team_3::before {
+    top: 30%;
+    right: 13%;
+}
+
+/* team 3 end */
+
+
+/* contact 3 start */
+.tf__contact_3_area {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 70px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tf__contact_3_text h2 {
+    color: var(--colorWhite);
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.tf__contact_3_text h2 span {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--colorGreen);
+    text-decoration: underline;
+}
+
+.tf__contact_3_text p {
+    margin: 20px 0px 40px 0px;
+    width: 80%;
+    color: var(--colorWhite);
+}
+
+.tf__contact_3_text a {
+    padding: 15px 35px;
+    background: var(--colorGreen);
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 30px;
+    position: relative;
+    font-family: var(--paraFont);
+    transition: all linear .3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__contact_3_text a:hover {
+    background: var(--colorWhite);
+    color: var(--colorGreen);
+}
+
+.tf__contact_3_form input {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.tf__contact_3_form .nice-select {
+    font-size: 16px;
+    height: 53px;
+    line-height: 52px;
+    padding-left: 20px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.tf__contact_3_form .current {
+    color: var(--colorBlack);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.tf__contact_3_form .nice-select .option.selected {
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.tf__contact_3_form .nice-select:after {
+    border-bottom: 2px solid var(--colorBlack);
+    border-right: 2px solid var(--colorBlack);
+}
+
+.tf__contact_3_form .nice-select .list {
+    width: 100%;
+}
+
+.tf__contact_3_form button {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    background: var(--colorBlack);
+    height: 55px;
+    line-height: 55px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tf__contact_3_form button:hover {
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+}
+
+/* contact 3 end */
+
+
+/* activities 3 start */
+.tf__activities_3 {
+    background: #f2f8f8;
+}
+
+.tf__activities_3 .tf__heading_area h2 {
+    color: var(--colorBlack);
+}
+
+.tf__activities_3 .tf__activities_item {
+    border: 1px solid #ddd !important;
+}
+
+.tf__activities_3 .tf__activities_item.light_blue {
+    border-color: #8e56ff40 !important;
+}
+
+.tf__activities_3 .tf__activities_item.green {
+    border-color: #1ab69d69 !important;
+}
+
+.tf__activities_3 .tf__activities_item.orange {
+    border-color: #ff7f466b !important;
+}
+
+.tf__activities_3 .tf__activities_item.blue {
+    border-color: #5287f861 !important;
+}
+
+.tf__activities_3 .tf__activities_item:hover {
+    border-color: var(--colorBlack) !important;
+}
+
+/* activities 3 end */
+
+
+/* blog 3 start */
+.home_3 .tf__blog_2 .tf__single_blog:hover,
+.home_3 .tf__single_blog_2:hover {
+    border-color: var(--colorGreen);
+}
+
+.home_3 .tf__single_blog_text_2 .read_btn:hover,
+.home_3 .tf__single_blog_text_2 .title:hover,
+.home_3 .tf__blog_2 .tf__single_blog_text .title:hover,
+.home_3 .tf__blog_2 .tf__single_blog_text .read_btn:hover {
+    color: var(--colorGreen);
+}
+
+.home_3 .tf__single_blog_text_2 .read_btn i,
+.home_3 .tf__blog_2 .tf__single_blog_text .read_btn i {
+    color: var(--colorGreen);
+}
+
+
+
+
+
+
+
+
+
+
+/* blog 3 tend */
+
+
+/* footer 3 start */
+
+.tf__footer_3 .tf__footer_apply .venobox {
+    background: var(--colorGreen);
+}
+
+.tf__footer_3 .tf__footer_apply .tf__footer_apply_overlay {
+    background: #191e24a3;
+}
+
+.tf__footer_3 .tf__footer_apply .venobox i {
+    color: var(--colorGreen);
+    border: 4px solid #08ebe8;
+}
+
+.tf__footer_3 .tf__footer_apply .apply_btn {
+    background: var(--colorGreen);
+    color: var(--colorWhite);
+}
+
+.tf__footer_3 .tf__footer_apply .apply_btn:hover {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.tf__footer_3 .tf__footer_overlay {
+    background-color: #191e24f7;
+}
+
+.tf__footer_3 .tf__footer_content form button {
+    background: var(--colorGreen);
+}
+
+.tf__footer_3 .tf__footer_logo_area ul li a:hover {
+    background: var(--colorGreen);
+    border-color: var(--colorGreen);
+}
+
+.tf__footer_3 .tf__copyright ul li a:hover,
+.tf__footer_3 .tf__footer_content ul li a:hover {
+    color: var(--colorGreen);
+}
+
+.tf__footer_3 .tf__footer_content ul li a:hover::after {
+    background: var(--colorGreen);
+}
+
+/* footer 3 end */
+
+.home_3 .tf__scroll_btn_2 {
+    background: var(--colorGreen);
+}
+
+/*==================================
+HOME PAGE 3 END
 ==================================*/
