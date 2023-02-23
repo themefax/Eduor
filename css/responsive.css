@@ -1,3 +1,43 @@
+@media (min-width: 1399.99px) {
+
+    /*==================================
+        HOME PAGE START
+    ==================================*/
+    .tf__about::after {
+        top: 250px;
+    }
+
+    .tf__about::before {
+        bottom: -40px;
+    }
+
+    .tf__faq::after {
+        top: 0;
+    }
+
+    .tf__faq::before {
+        bottom: -20px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*==================================
+        HOME PAGE END
+    ==================================*/
+
+
+
+
+}
+
+
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     /*==================================
@@ -92,7 +132,7 @@
     .tf__activities_img {
         width: auto;
         height: 100%;
-        margin-left: 25px;
+        margin-left: 0;
     }
 
     .tf__about_img {
@@ -255,8 +295,8 @@
 
     .tf__activities_img {
         width: auto;
-        height: 500px;
-        margin: 50px 0px;
+        height: 100%;
+        margin-left: 0;
     }
 
     .tf__footer_content h3 {
@@ -269,6 +309,10 @@
 
     .tf__scroll_btn {
         right: -25px;
+    }
+
+    .tf__about::after {
+        top: 200px;
     }
 
     /*==================================
@@ -535,6 +579,10 @@
     /* testimonial end */
 
     /* activities start */
+    .tf__activities {
+        margin-top: 95px !important;
+    }
+
     .tf__activities_img {
         width: auto;
         height: 460px;
@@ -1300,6 +1348,12 @@
     }
 
     /* scroll button end */
+
+    .tf__about_top_text_center h4 {
+        font-size: 20px;
+    }
+
+
     /*==================================
         HOME PAGE END
     ==================================*/
