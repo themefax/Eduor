@@ -65,7 +65,7 @@ $(function () {
     $('.work_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -82,7 +82,7 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
@@ -120,7 +120,7 @@ $(function () {
             {
                 breakpoint: 1400,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -195,7 +195,7 @@ $(function () {
     });
 
 
-    //=======BRAND SLIDER======
+    //=====BRAND SLIDER=====
     $('.brand_slider').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -239,7 +239,7 @@ $(function () {
     });
 
 
-    //*=======SCROLL BUTTON=======
+    //*=====SCROLL BUTTON======
     $('.tf__scroll_btn').on('click', function () {
         $('html, body').animate({
             scrollTop: 0,
@@ -258,7 +258,7 @@ $(function () {
     });
 
 
-    //=======POPULAR SERVICE SLIDER======
+    //======POPULAR SERVICE SLIDER======
     $('.popular_service_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -302,21 +302,21 @@ $(function () {
     });
 
 
-    //=========COUNTER JS=========
+    //======COUNTER JS=======
     $('.counter').countUp();
 
 
-    //*========STICKY SIDEBAR=======
+    //=======STICKY SIDEBAR=======
     $("#sticky_sidebar").stickit({
         top: 90,
     });
 
 
-    //*==========WOW JS==========
+    //*======WOW JS========
     new WOW().init();
 
 
-    //=========MENU 2 FIX JS=========   
+    //======MENU 2 FIX JS======   
     if ($('.main_menu_2').offset() != undefined) {
         $(window).bind('scroll', function () {
             if ($(window).scrollTop() > 130) {
@@ -335,7 +335,6 @@ $(function () {
         $('#bar3').barfiller();
         $('#bar4').barfiller();
     });
-
 
 
     //=======TESTI SLIDER 2======
@@ -386,9 +385,9 @@ $(function () {
     $('.select_js').niceSelect();
 
 
-
-
-
-
+    //=======MOBILE MENU ICON======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show_close_icon");
+    });
 
 });
