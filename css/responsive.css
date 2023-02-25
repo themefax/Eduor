@@ -19,15 +19,6 @@
         bottom: -20px;
     }
 
-
-
-
-
-
-
-
-
-
     /*==================================
         HOME PAGE END
     ==================================*/
@@ -167,7 +158,134 @@
     /*==================================
         HOME PAGE END
     ==================================*/
+
+
+    /*==================================
+        ABOUT PAGE START
+    ==================================*/
+    .tf__breadcrumb_text h2 {
+        font-size: 55px;
+    }
+
+    .tf__breadcrumb {
+        padding-top: 195px;
+        padding-bottom: 130px;
+    }
+
+    .tf__breadcrumb .container::after {
+        width: 350px;
+        height: 435px;
+        top: -28px;
+    }
+
+    .tf__about_2_img .tf__about_large {
+        width: 540px;
+        height: 540px;
+    }
+
+    .tf__about_2_text ul {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul li .text {
+        width: 83%;
+    }
+
+    .tf__about_2_img .tf__about_large::after {
+        top: -50px;
+    }
+
+    /*==================================
+        ABOUT PAGE END
+    ==================================*/
+
+
+    /*==================================
+        BLOG DETAILS START
+    ==================================*/
+    .tf__blog_details_img,
+    .tf__courses_details_img,
+    .tf__blog_details_center_img {
+        height: 400px;
+    }
+
+    .tf__single_comment_text {
+        max-width: 82%;
+    }
+
+    .tf__single_comment.reply .tf__single_comment_text {
+        max-width: 79%;
+    }
+
+    .tf__sidebar_certificate {
+        padding: 30px;
+    }
+
+    .sidebar_item {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .tf__sidebar_blog.sidebar_item {
+        padding-bottom: 0;
+    }
+
+    .tf__sidebar_blog ul li .text {
+        max-width: 65%;
+    }
+
+    .tf__sidebar_tags {
+        padding-bottom: 5px;
+    }
+
+    .tf__sidebar_apply {
+        height: 400px;
+    }
+
+    .tf__sidebar_apply a {
+        padding: 15px 30px;
+    }
+
+    /*==================================
+        BLOG DETAILS END
+    ==================================*/
+
+    /*==================================
+        CONTACT START
+    ==================================*/
+    .tf__contact_single .text {
+        max-width: 73%;
+    }
+
+    .tf__contact_form p {
+        width: 80%;
+    }
+
+    /*==================================
+        CONTACT END
+    ==================================*/
+
+
+    /*==================================
+        COURSE DETAILS START
+    ==================================*/
+    .tf__courses_details_header .text {
+        width: 91.5%;
+    }
+
+    .tf__course_overview ul li,
+    .tf__course_overview ol li {
+        width: 100%;
+    }
+
+    .tf__course_instructor_img {
+        height: 300px;
+    }
+
+    /*==================================
+        COURSE DETAILS END
+    ==================================*/
 }
+
 
 
 
@@ -317,6 +435,154 @@
 
     /*==================================
         HOME PAGE END
+    ==================================*/
+
+
+    /*==================================
+        ABOUT PAGE START
+    ==================================*/
+    .tf__breadcrumb_text h2 {
+        font-size: 55px;
+    }
+
+    .tf__breadcrumb {
+        padding-top: 195px;
+        padding-bottom: 130px;
+    }
+
+    .tf__breadcrumb .container::after {
+        width: 350px;
+        height: 435px;
+        top: -28px;
+    }
+
+    .tf__about_2_img .tf__about_large {
+        width: 430px;
+        height: 430px;
+    }
+
+    .tf__about_2_img p {
+        bottom: -70px;
+        left: 40px;
+    }
+
+    .tf__about_2_text ul {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul li .text {
+        width: 83%;
+    }
+
+    .tf__about_us_counter {
+        margin-top: -15px;
+    }
+
+    .tf__about_2_img .tf__about_large::after {
+        top: -50px;
+    }
+
+    /*==================================
+        ABOUT PAGE END
+    ==================================*/
+
+
+    /*==================================
+        BLOG DETAILS START
+    ==================================*/
+    .tf__blog_details_img,
+    .tf__courses_details_img,
+    .tf__blog_details_center_img {
+        height: 350px;
+    }
+
+    .tf__single_comment_text {
+        max-width: 82%;
+    }
+
+    .tf__single_comment.reply .tf__single_comment_text {
+        max-width: 79%;
+    }
+
+    .tf__comment_reply {
+        padding: 30px;
+    }
+
+    .tf__sidebar_certificate {
+        padding: 21px;
+    }
+
+    .sidebar_item {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .tf__sidebar_blog.sidebar_item {
+        padding-bottom: 0;
+    }
+
+    .tf__sidebar_blog ul li .text {
+        max-width: 58%;
+    }
+
+    .tf__sidebar_tags {
+        padding-bottom: 0px;
+    }
+
+    .tf__sidebar_apply {
+        height: 340px;
+    }
+
+    .tf__sidebar_apply a {
+        padding: 15px 30px;
+    }
+
+    .tf__blog_page {
+        margin-top: 190px !important;
+    }
+
+    /*==================================
+        BLOG DETAILS END
+    ==================================*/
+
+    /*==================================
+        CONTACT START
+    ==================================*/
+    .tf__contact_single .text {
+        max-width: 73%;
+    }
+
+    .tf__contact_form p {
+        width: 100%;
+    }
+
+    /*==================================
+        CONTACT END
+    ==================================*/
+
+
+    /*==================================
+        COURSE DETAILS START
+    ==================================*/
+    .tf__courses_details_header .text {
+        width: 89.7%;
+    }
+
+    .tf__course_overview ul li,
+    .tf__course_overview ol li {
+        width: 100%;
+    }
+
+    .tf__course_instructor_img {
+        height: 300px;
+    }
+
+    .tf__courses_details_header .text li a {
+        padding: 10px 19px !important;
+        font-size: 14px !important;
+    }
+
+    /*==================================
+        COURSE DETAILS END
     ==================================*/
 }
 
@@ -651,6 +917,154 @@
         HOME PAGE END
     ==================================*/
 
+    /*==================================
+        ABOUT PAGE START
+    ==================================*/
+    .tf__breadcrumb_text h2 {
+        font-size: 45px;
+    }
+
+    .tf__breadcrumb {
+        padding-top: 145px;
+        padding-bottom: 80px;
+    }
+
+    .tf__breadcrumb .container::after {
+        width: 280px;
+        height: 350px;
+        top: -20px;
+    }
+
+    .tf__about_2_img .tf__about_large {
+        width: 500px;
+        height: 500px;
+    }
+
+    .tf__about_2_text {
+        margin-top: 90px;
+    }
+
+    .tf__about_2_img p {
+        border-radius: 70px;
+        bottom: -70px;
+        left: 65px;
+    }
+
+    .tf__about_2_text ul {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul li .text {
+        width: 88%;
+    }
+
+    .tf__about_us_counter {
+        justify-content: center;
+    }
+
+    .tf__about_us_counter a {
+        margin-top: 15px;
+    }
+
+    .tf__about_2_img .tf__about_large::after {
+        right: 190px;
+    }
+
+    /*==================================
+        ABOUT PAGE END
+    ==================================*/
+
+
+    /*==================================
+        BLOG DETAILS START
+    ==================================*/
+    .tf__blog_details_img,
+    .tf__courses_details_img,
+    .tf__blog_details_center_img {
+        height: 350px;
+    }
+
+    .tf__single_comment_text {
+        max-width: 84%;
+    }
+
+    .tf__single_comment.reply .tf__single_comment_text {
+        max-width: 82%;
+    }
+
+    .tf__comment_reply {
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tf__sidebar_certificate {
+        padding: 40px;
+    }
+
+    .tf__sidebar_blog ul li .text {
+        max-width: 70%;
+    }
+
+    .tf__sidebar_tags {
+        padding-bottom: 10px;
+    }
+
+    .tf__sidebar_apply {
+        height: 725px;
+    }
+
+    /*==================================
+        BLOG DETAILS END
+    ==================================*/
+
+    /*==================================
+        CONTACT START
+    ==================================*/
+    .tf__contact_text {
+        margin-top: 25px;
+    }
+
+    .tf__contact_single .text {
+        max-width: 77%;
+    }
+
+    .tf__contact_form p {
+        width: 75%;
+    }
+
+    .tf__contact_map {
+        height: 400px;
+    }
+
+    /*==================================
+        CONTACT END
+    ==================================*/
+
+
+    /*==================================
+        COURSE DETAILS START
+    ==================================*/
+    .tf__course_overview ul li,
+    .tf__course_overview ol li {
+        width: 100%;
+    }
+
+    .tf__courses_details_area {
+        margin-bottom: 25px;
+    }
+
+    .tf__course_instructor_img {
+        height: 400px;
+    }
+
+    .tf__courses_details_header .text {
+        width: 90.9%;
+    }
+
+    /*==================================
+        COURSE DETAILS END
+    ==================================*/
+
 
 }
 
@@ -914,6 +1328,8 @@
 
     .tf__activities_item {
         padding: 25px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
     }
 
     /* activities end */
@@ -962,6 +1378,231 @@
     /*==================================
         HOME PAGE END
     ==================================*/
+
+
+    /*==================================
+        ABOUT PAGE START
+    ==================================*/
+    .tf__breadcrumb_text h2 {
+        font-size: 35px;
+    }
+
+    .tf__breadcrumb {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    .tf__breadcrumb .container::after {
+        width: 180px;
+        height: 225px;
+        top: -21px;
+    }
+
+    .tf__about_2_img .tf__about_large {
+        width: 400px;
+        height: 400px;
+    }
+
+    .tf__about_2_img .tf__about_small {
+        width: 130px;
+        height: 130px;
+        border: 7px solid var(--colorWhite);
+    }
+
+    .tf__about_2_text {
+        margin-top: 90px;
+    }
+
+    .tf__about_2_img p {
+        border-radius: 70px;
+        bottom: -70px;
+        left: 25px;
+    }
+
+    .tf__about_2_text p {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul li .text {
+        width: 85%;
+    }
+
+    .tf__about_us_counter p span {
+        font-size: 20px;
+        min-width: 135px;
+    }
+
+    .tf__about_us_counter p {
+        font-size: 15px;
+    }
+
+    .tf__about_us_counter {
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .tf__about_us_counter a {
+        margin-top: 15px;
+    }
+
+    .tf__about_us_counter p span::after {
+        font-size: 25px;
+        right: 35px;
+    }
+
+    .tf__popular_service_single {
+        padding: 30px 20px;
+    }
+
+    /*==================================
+        ABOUT PAGE END
+    ==================================*/
+
+    /*==================================
+        BLOG DETAILS START
+    ==================================*/
+    .tf__blog_details_img,
+    .tf__courses_details_img,
+    .tf__blog_details_center_img {
+        height: 280px;
+    }
+
+    .tf__details_quot_text {
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .tf__details_quot_text::after {
+        bottom: 15px;
+        right: 25px;
+        font-size: 40px;
+    }
+
+    .tf__single_comment_text {
+        max-width: 78%;
+    }
+
+    .tf__single_comment.reply .tf__single_comment_text {
+        max-width: 78%;
+    }
+
+    .tf__single_comment.reply {
+        margin-left: 0;
+    }
+
+    .tf__comment_reply {
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+
+    .tf__sidebar_certificate {
+        padding: 40px;
+    }
+
+    .tf__sidebar_blog ul li .text {
+        max-width: 76%;
+    }
+
+    .tf__sidebar_tags {
+        padding-bottom: 10px;
+    }
+
+    .tf__sidebar_apply {
+        height: 541px;
+    }
+
+    .tf__sidebar_apply a {
+        padding: 12px 30px;
+    }
+
+    /*==================================
+        BLOG DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        CONTACT START
+    ==================================*/
+    .tf__contact_text {
+        margin-top: 25px;
+    }
+
+    .tf__contact_single .text {
+        max-width: 77%;
+    }
+
+    .tf__contact_form p {
+        width: 100%;
+    }
+
+    .tf__contact_map {
+        height: 350px;
+    }
+
+    /*==================================
+        CONTACT END
+    ==================================*/
+
+
+    /*==================================
+        COURSE DETAILS START
+    ==================================*/
+    .tf__courses_details_header .img {
+        margin-bottom: 10px;
+    }
+
+    .tf__courses_details_header .text li {
+        width: 20%;
+        text-align: left;
+        border: none;
+    }
+
+    .tf__courses_details_header .text li h4 {
+        font-size: 15px;
+    }
+
+    .tf__courses_details_header .text li p {
+        font-size: 12px;
+    }
+
+    .tf__courses_det_text .nav li {
+        width: 33.33%;
+    }
+
+    .tf__courses_det_text .nav li button {
+        width: 100%;
+    }
+
+    .tf__course_overview ul li,
+    .tf__course_overview ol li {
+        width: 100%;
+    }
+
+    .tf__courses_details_area {
+        margin-bottom: 25px;
+    }
+
+    .tf__course_instructor_img {
+        height: 500px;
+    }
+
+    .tf__courses_details_header .text {
+        width: 100%;
+    }
+
+    .tf__courses_details_header .text li a {
+        padding: 10px 20px !important;
+        font-size: 13px !important;
+    }
+
+    /*==================================
+        COURSE DETAILS END
+    ==================================*/
+
 
 }
 
@@ -1185,6 +1826,7 @@
 
     .tf__single_event_img .event_category {
         padding: 5px 20px;
+        font-size: 14px;
     }
 
     .tf__single_event_text ul li {
@@ -1353,12 +1995,332 @@
         font-size: 20px;
     }
 
+    .tf__single_blog_text .category {
+        padding: 5px 20px !important;
+        font-size: 14px;
+    }
 
     /*==================================
         HOME PAGE END
     ==================================*/
 
+    /*==================================
+        ABOUT PAGE START
+    ==================================*/
+    .tf__breadcrumb_text h2 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
 
+    .tf__breadcrumb {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    .tf__breadcrumb .container::after {
+        width: 100px;
+        height: 125px;
+        top: 45px;
+    }
+
+    .tf__about_2_img .tf__about_large {
+        width: 300px;
+        height: 300px;
+    }
+
+    .tf__about_2_img .tf__about_small {
+        width: 100px;
+        height: 100px;
+        border: 5px solid var(--colorWhite);
+    }
+
+    .tf__about_2_text {
+        margin-top: 90px;
+    }
+
+    .tf__about_2_img p {
+        border-radius: 70px;
+        bottom: -70px;
+        left: 0;
+    }
+
+    .tf__about_2_text p {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul {
+        max-width: 100%;
+    }
+
+    .tf__about_2_text ul li .text {
+        width: 75%;
+    }
+
+    .tf__about_us_counter p span {
+        min-width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .tf__about_us_counter p {
+        text-align: center;
+    }
+
+    .tf__about_us_counter {
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .tf__about_us_counter a {
+        margin-top: 15px;
+    }
+
+    .tf__single_courses_text {
+        padding: 15px 20px 20px 20px;
+    }
+
+    .tf__single_course_header li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .tf__single_course_header {
+        padding: 8px 20px 10px 20px;
+    }
+
+    .tf__single_courses_text .title {
+        font-size: 20px;
+    }
+
+    .tf__single_courses_img .categories {
+        padding: 5px 20px !important;
+        font-size: 14px;
+    }
+
+    .tf__popular_service_single h3 {
+        font-size: 20px;
+    }
+
+    .tf__single_courses_img {
+        height: 220px;
+    }
+
+    /*==================================
+        ABOUT PAGE END
+    ==================================*/
+
+    /*==================================
+        BLOG DETAILS START
+    ==================================*/
+    .tf__blog_details_img,
+    .tf__courses_details_img,
+    .tf__blog_details_center_img {
+        height: 220px;
+    }
+
+    .tf__blog_details_text h3 {
+        font-size: 20px;
+    }
+
+    .tf__details_quot_text {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .tf__details_quot_text h4 {
+        font-size: 20px;
+    }
+
+    .tf__details_quot_text::after {
+        bottom: 5px;
+        right: 20px;
+        font-size: 35px;
+    }
+
+    .tf__single_comment_text {
+        max-width: 100%;
+    }
+
+    .tf__single_comment_text span {
+        font-size: 14px;
+    }
+
+    .tf__single_comment_text span a {
+        font-size: 15px;
+    }
+
+    .tf__single_comment_img {
+        margin-bottom: 10px;
+    }
+
+    .tf__single_comment.reply {
+        margin-left: 0px;
+    }
+
+    .tf__comment_reply {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    .tf__sidebar_certificate {
+        padding: 20px;
+    }
+
+    .sidebar_item {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .tf__sidebar_blog.sidebar_item {
+        padding-bottom: 0;
+    }
+
+    .tf__sidebar_blog ul li .text {
+        max-width: 58%;
+    }
+
+    .tf__sidebar_blog ul li .text a {
+        font-size: 14px;
+    }
+
+    .tf__sidebar_tags {
+        padding-bottom: 0;
+    }
+
+    .tf__sidebar_apply {
+        height: 350px;
+    }
+
+    .tf__sidebar_apply a {
+        padding: 12px 30px;
+    }
+
+    .tf__blog_comment h3 {
+        font-size: 20px;
+    }
+
+    .tf__comment_reply h3 {
+        font-size: 20px;
+    }
+
+    .tf__sidebar_certificate h3 {
+        font-size: 20px;
+    }
+
+    .sidebar_item h3 {
+        font-size: 20px;
+    }
+
+    /*==================================
+        BLOG DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        CONTACT START
+    ==================================*/
+    .tf__contact_text {
+        padding: 25px 20px 0px 20px;
+        margin-top: 25px;
+    }
+
+    .tf__contact_single .icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .tf__contact_single .text {
+        max-width: 72%;
+    }
+
+    .tf__contact_single .text h3 {
+        font-size: 18px;
+    }
+
+    .tf__contact_single .text a,
+    .tf__contact_single .text p {
+        font-size: 16px;
+    }
+
+    .tf__contact_single {
+        margin-bottom: 20px;
+    }
+
+    .tf__contact_form p {
+        width: 100%;
+    }
+
+    .tf__contact_map {
+        height: 300px;
+    }
+
+    /*==================================
+        CONTACT END
+    ==================================*/
+
+
+    /*==================================
+        COURSE DETAILS START
+    ==================================*/
+    .tf__courses_details_header .text li {
+        width: 100%;
+        text-align: left;
+        margin-top: 15px;
+        border: none;
+    }
+
+    .tf__courses_details_header {
+        padding: 30px;
+    }
+
+    .tf__courses_det_text .nav li {
+        width: 33.33%;
+    }
+
+    .tf__courses_det_text .nav li button {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tf__course_overview ul li,
+    .tf__course_overview ol li {
+        width: 100%;
+    }
+
+    .tf__courses_details_area {
+        margin-bottom: 25px;
+    }
+
+    .tf__course_instructor_img {
+        height: 290px;
+    }
+
+    .tf__courses_review .tf__single_comment_text h4 span {
+        font-size: 12px;
+    }
+
+    .tf__courses_review .tf__comment_reply p span {
+        display: block;
+    }
+
+    .tf__courses_review .tf__comment_reply p i {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+
+    .tf__courses_details_header .text {
+        width: 100%;
+    }
+
+    /*==================================
+        COURSE DETAILS END
+    ==================================*/
 
 
 
