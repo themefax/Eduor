@@ -284,6 +284,26 @@
     /*==================================
         COURSE DETAILS END
     ==================================*/
+
+    .tf__team_details_img {
+        height: 370px;
+    }
+
+    .tf__team_page::before {
+        width: 100px;
+        height: 135px;
+    }
+
+    .tf__team_page::after {
+        display: none;
+    }
+
+
+
+
+
+
+
 }
 
 
@@ -584,6 +604,69 @@
     /*==================================
         COURSE DETAILS END
     ==================================*/
+
+
+    /*==================================
+        EVENT DETAILS START
+    ==================================*/
+    .tf__event_details_img,
+    .tf__event_det_center_img {
+        height: 450px;
+    }
+
+    .tf__event_details_text {
+        margin-right: 0;
+    }
+
+    .tf__event_det_center_text {
+        max-width: 100%;
+    }
+
+    /*==================================
+        EVENT DETAILS END
+    ==================================*/
+
+    .tf__single_services {
+        padding: 60px 30px 30px 30px;
+    }
+
+
+    /*==================================
+        TEAM DETAILS START
+    ==================================*/
+    .tf__team_details_img,
+    .tf__single_team_img {
+        height: 440px;
+    }
+
+    .tf__team_details_text p {
+        padding: 20px;
+    }
+
+    .tf__counter_area ul li.tf__single_counter {
+        width: 50%;
+        border-right: 0;
+    }
+
+    .tf__counter_area {
+        padding: 25px 0px;
+    }
+
+    .tf__team_page::before {
+        width: 75px;
+        height: 103px;
+    }
+
+    .tf__team_page::after {
+        display: none;
+    }
+
+    /*==================================
+        TEAM DETAILS END
+    ==================================*/
+
+
+
 }
 
 
@@ -1063,6 +1146,86 @@
 
     /*==================================
         COURSE DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        EVENT DETAILS START
+    ==================================*/
+    .tf__event_details_img,
+    .tf__event_det_center_img {
+        height: 350px;
+    }
+
+    .tf__event_details_text {
+        margin-right: 0;
+    }
+
+    .tf__event_det_center_text {
+        max-width: 100%;
+    }
+
+    /*==================================
+        EVENT DETAILS END
+    ==================================*/
+
+    /*==================================
+        SERVICES START
+    ==================================*/
+    .tf__single_services {
+        padding: 35px;
+    }
+
+    .tf__single_services h3 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    /*==================================
+        SERVICES END
+    ==================================*/
+
+
+    /*==================================
+        TEAM DETAILS START
+    ==================================*/
+    .tf__team_details_img,
+    .tf__single_team_img {
+        height: 330px;
+    }
+
+    .tf__team_details_text h3 {
+        margin-top: 25px;
+    }
+
+    .tf__team_details_text p {
+        padding: 20px;
+    }
+
+    .tf__team_description ul li {
+        width: 100%;
+    }
+
+    .tf__counter_area ul li.tf__single_counter {
+        width: 50%;
+        border-right: 0;
+    }
+
+    .tf__counter_area {
+        padding: 25px 0px;
+    }
+
+    .tf__team_page::before {
+        width: 85px;
+        height: 115px;
+    }
+
+    .tf__team_page::after {
+        display: none;
+    }
+
+    /*==================================
+        TEAM DETAILS END
     ==================================*/
 
 
@@ -1602,6 +1765,86 @@
     /*==================================
         COURSE DETAILS END
     ==================================*/
+
+
+    /*==================================
+        ERROR PAGE START
+    ==================================*/
+    .tf__error_text .img {
+        width: 280px;
+        height: 300px;
+    }
+
+    /*==================================
+        ERROR PAGE END
+    ==================================*/
+
+
+    /*==================================
+        EVENT DETAILS START
+    ==================================*/
+    .tf__event_details_img,
+    .tf__event_det_center_img {
+        height: 280px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .tf__event_details_text {
+        margin-right: 0;
+    }
+
+    .tf__event_det_center_text {
+        max-width: 100%;
+    }
+
+    /*==================================
+        EVENT DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        TEAM DETAILS START
+    ==================================*/
+    .tf__team_details_img,
+    .tf__single_team_img {
+        height: 530px;
+    }
+
+    .tf__team_details_text h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .tf__team_details_text p {
+        padding: 20px;
+    }
+
+    .tf__team_description ul li {
+        width: 100%;
+    }
+
+    .tf__counter_area ul li.tf__single_counter {
+        width: 100%;
+        border-right: 0;
+    }
+
+    .tf__counter_area {
+        padding: 25px 0px;
+    }
+
+    .tf__team_page::before,
+    .tf__team_page::after {
+        display: none;
+    }
+
+    /*==================================
+        TEAM DETAILS END
+    ==================================*/
+
 
 
 }
@@ -2320,6 +2563,119 @@
 
     /*==================================
         COURSE DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        ERROR PAGE START
+    ==================================*/
+    .tf__error_text .img {
+        width: 280px;
+        height: 300px;
+    }
+
+    .tf__error_text h4 {
+        font-size: 25px;
+    }
+
+    /*==================================
+        ERROR PAGE END
+    ==================================*/
+
+
+    /*==================================
+        EVENT DETAILS START
+    ==================================*/
+    .tf__event_details_img,
+    .tf__event_det_center_img {
+        height: 270px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .tf__event_details_text {
+        margin-right: 0;
+    }
+
+    .tf__event_details_text h2,
+    .tf__event_details_text h3 {
+        font-size: 20px;
+    }
+
+    .tf__event_details_text .location li {
+        margin-bottom: 10px;
+    }
+
+    .tf__event_det_center_text {
+        max-width: 100%;
+    }
+
+    /*==================================
+        EVENT DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        SERVICES START
+    ==================================*/
+    .tf__single_services {
+        padding: 35px 60px;
+    }
+
+    .tf__single_services h3 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    /*==================================
+        SERVICES END
+    ==================================*/
+
+
+    /*==================================
+        TEAM DETAILS START
+    ==================================*/
+    .tf__team_details_img,
+    .tf__single_team_img {
+        height: 300px;
+    }
+
+    .tf__team_details_text h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .tf__team_details_text p {
+        padding: 20px;
+    }
+
+    .tf__team_description ul li {
+        width: 100%;
+    }
+
+    .tf__counter_area ul li.tf__single_counter {
+        width: 100%;
+        border-right: 0;
+    }
+
+    .tf__counter_area {
+        padding: 25px 0px;
+    }
+
+    .tf__single_team_text .title {
+        font-size: 20px;
+    }
+
+    .tf__team_page::before,
+    .tf__team_page::after {
+        display: none;
+    }
+
+    /*==================================
+        TEAM DETAILS END
     ==================================*/
 
 
