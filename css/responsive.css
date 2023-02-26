@@ -298,9 +298,21 @@
         display: none;
     }
 
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .tf__team_3::before,
+    .tf__team_2::before {
+        top: 20px;
+    }
 
+    .tf__team_2::after {
+        top: 90%;
+    }
 
-
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
 
 
 
@@ -663,6 +675,88 @@
 
     /*==================================
         TEAM DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .tf__header_text a {
+        max-width: 170px;
+        height: 65px;
+    }
+
+    .tf__topbar_right .tf__other_language {
+        left: auto;
+        right: 0;
+    }
+
+    .tf__header_text ul li .icon {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 10px;
+    }
+
+    .tf__header_text ul li .text h4 {
+        font-size: 16px;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item {
+        margin-left: 30px;
+    }
+
+    .tf__header {
+        height: 65px;
+    }
+
+    .tf__team_3::before,
+    .tf__team_2::before {
+        top: 0;
+    }
+
+    .tf__team_2::after {
+        top: 95%;
+    }
+
+    .tf__single_blog_2_img {
+        height: 250px;
+    }
+
+    .tf__single_blog_text_2 {
+        padding: 10px 10px 10px 20px;
+    }
+
+    .tf__blog_2 .tf__single_blog_img {
+        height: 290px;
+    }
+
+    .tf__single_blog_text {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .tf__footer_apply p {
+        width: 40%;
+    }
+
+    .tf__footer_logo_area ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .tf__skills_bar_single {
+        width: 100%;
+    }
+
+    .tf__scroll_btn_2 {
+        right: 20px !important;
+        bottom: 80px !important;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
     ==================================*/
 
 
@@ -1227,6 +1321,147 @@
     /*==================================
         TEAM DETAILS END
     ==================================*/
+
+
+    /*==================================
+        TEAM HOME PAGE 2 START
+    ==================================*/
+    .tf__topbar_right .tf__other_language {
+        left: auto;
+        right: 0;
+    }
+
+    .main_menu_2 .navbar-brand {
+        width: 120px;
+        height: 40px;
+        display: block;
+        margin: 0 !important;
+    }
+
+    .main_menu_2 .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .main_menu_2 .main_menu_2_area {
+        height: auto;
+        text-align: center;
+    }
+
+    .tf__topbar {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu_2 {
+        background: var(--colorWhite);
+        padding: 10px 0px;
+        position: fixed;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu_2 .navbar-nav {
+        line-height: 55px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 11px;
+        padding-top: 5px;
+    }
+
+    .main_menu_2 .common_btn_2 {
+        margin-bottom: 15px;
+    }
+
+    .tf__banner_text {
+        padding-top: 23px;
+        padding-bottom: 0;
+    }
+
+    .tf__home_2_about_img {
+        margin-right: 0;
+    }
+
+    .tf__home_2_about_text p {
+        width: 80%;
+        margin-bottom: 35px;
+    }
+
+    .tf__upcoming_event::after {
+        display: none;
+    }
+
+    .tf__counter2_overlay {
+        padding: 25px 0px;
+    }
+
+    .tf__team_2::after,
+    .tf__team_2::before {
+        display: none;
+    }
+
+    .tf__single_blog_2_img {
+        width: 100%;
+        height: 240px !important;
+    }
+
+    .tf__blog_2 .tf__single_blog_img,
+    .tf__single_blog_2_img {
+        height: 400px;
+    }
+
+    .tf__single_blog_text_2 {
+        width: 100%;
+        padding: 25px 20px 15px 15px;
+    }
+
+    .tf__footer_apply p {
+        width: 60%;
+    }
+
+    .tf__footer_apply .tf__footer_apply_overlay {
+        padding: 90px 40px 42px 40px;
+    }
+
+    .tf__footer_2 .tf__footer_content,
+    .tf__footer_2 .tf__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .tf__footer_2 .tf__copyright {
+        margin-top: -15px;
+        padding-bottom: 0;
+    }
+
+    .tf__scroll_btn_2 {
+        right: 10px !important;
+        bottom: 10px !important;
+    }
+
+    .tf__home_2_about_text {
+        margin-top: 25px;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
+    ==================================*/
+
+
+
+
 
 
 }
@@ -1843,6 +2078,156 @@
 
     /*==================================
         TEAM DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        TEAM HOME PAGE 2 START
+    ==================================*/
+    .tf__topbar_right>ul {
+        justify-content: center;
+    }
+
+    .tf__topbar_right .tf__other_language {
+        left: auto;
+        right: 0;
+    }
+
+    .main_menu_2 .navbar-brand {
+        width: 120px;
+        height: 40px;
+        display: block;
+        margin: 0 !important;
+    }
+
+    .main_menu_2 .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .main_menu_2 .main_menu_2_area {
+        height: auto;
+        text-align: center;
+    }
+
+    .tf__topbar {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu_2 {
+        background: var(--colorWhite);
+        padding: 10px 0px;
+        position: fixed;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu_2 .navbar-nav {
+        line-height: 55px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 11px;
+        padding-top: 5px;
+    }
+
+    .main_menu_2 .common_btn_2 {
+        margin-bottom: 15px;
+    }
+
+    .tf__banner_text {
+        padding-top: 23px;
+        padding-bottom: 0;
+    }
+
+    .tf__home_2_about_img {
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .tf__home_2_about_text p {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .tf__upcoming_event::after {
+        display: none;
+    }
+
+    .tf__counter2_overlay {
+        padding: 25px 0px;
+    }
+
+    .tf__team_2::after,
+    .tf__team_2::before {
+        display: none;
+    }
+
+    .tf__single_blog_2_img {
+        width: 100%;
+        height: 290px !important;
+    }
+
+    .tf__blog_2 .tf__single_blog_img,
+    .tf__single_blog_2_img {
+        height: 290px;
+    }
+
+    .tf__single_blog_text_2 {
+        width: 100%;
+        padding: 25px 20px 15px 15px;
+    }
+
+    .tf__footer_apply h3 {
+        font-size: 25px;
+    }
+
+    .tf__footer_apply p {
+        width: 100%;
+    }
+
+    .tf__footer_apply .tf__footer_apply_overlay {
+        padding: 90px 40px 42px 40px;
+    }
+
+    .tf__footer_2 .tf__footer_content,
+    .tf__footer_2 .tf__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .tf__footer_2 .tf__copyright {
+        margin-top: -15px;
+        padding-bottom: 0;
+    }
+
+    .tf__scroll_btn_2 {
+        right: 10px !important;
+        bottom: 10px !important;
+    }
+
+    .tf__skills_bar_single {
+        width: 100%;
+    }
+
+    .tf__home_2_about_text {
+        margin-top: 25px;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
     ==================================*/
 
 
@@ -2676,6 +3061,155 @@
 
     /*==================================
         TEAM DETAILS END
+    ==================================*/
+
+
+    /*==================================
+        HOME PAGE 2 START
+    ==================================*/
+    .tf__topbar_right>ul {
+        justify-content: center;
+    }
+
+    .tf__topbar_right .tf__other_language {
+        left: auto;
+        right: 0;
+    }
+
+    .main_menu_2 .navbar-brand {
+        width: 120px;
+        height: 40px;
+        display: block;
+        margin: 0 !important;
+    }
+
+    .main_menu_2 .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .main_menu_2 .main_menu_2_area {
+        height: auto;
+        text-align: center;
+    }
+
+    .tf__topbar {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu_2 {
+        background: var(--colorWhite);
+        padding: 10px 0px;
+        position: fixed;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .main_menu_2 .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .main_menu_2 .navbar-nav {
+        line-height: 55px;
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: 11px;
+        padding-top: 5px;
+    }
+
+    .main_menu_2 .common_btn_2 {
+        margin-bottom: 15px;
+    }
+
+    .tf__banner_text {
+        padding-top: 23px;
+        padding-bottom: 0;
+    }
+
+    .tf__home_2_about_img {
+        height: 280px;
+        margin-right: 0;
+    }
+
+    .tf__home_2_about_text p {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .tf__upcoming_event::after {
+        display: none;
+    }
+
+    .tf__counter2_overlay {
+        padding: 25px 0px;
+    }
+
+    .tf__team_2::after,
+    .tf__team_2::before {
+        display: none;
+    }
+
+    .tf__single_blog_2_img {
+        width: 100%;
+    }
+
+    .tf__blog_2 .tf__single_blog_img,
+    .tf__single_blog_2_img {
+        height: 220px;
+    }
+
+    .tf__single_blog_text_2 {
+        width: 100%;
+        padding: 25px 20px 15px 15px;
+    }
+
+    .tf__footer_apply h3 {
+        font-size: 25px;
+    }
+
+    .tf__footer_apply p {
+        width: 100%;
+    }
+
+    .tf__footer_apply .tf__footer_apply_overlay {
+        padding: 90px 20px 42px 20px;
+    }
+
+    .tf__footer_2 .tf__footer_content,
+    .tf__footer_2 .tf__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .tf__footer_2 .tf__copyright {
+        margin-top: -15px;
+        padding-bottom: 0;
+    }
+
+    .tf__scroll_btn_2 {
+        right: 10px !important;
+        bottom: 10px !important;
+    }
+
+    .tf__skills_bar_single {
+        width: 100%;
+    }
+
+    .tf__home_2_about_text {
+        margin-top: 25px;
+    }
+
+    /*==================================
+        HOME PAGE 2 END
     ==================================*/
 
 
