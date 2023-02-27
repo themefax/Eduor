@@ -90,12 +90,12 @@ button {
     --paraFont: 'Rubik', sans-serif;
     --headingFont: 'Montserrat', sans-serif;
     --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
 }
 
 /*==================================
     COMMON CSS START
 ==================================*/
+/* button css atart */
 .common_btn,
 .common_btn_2,
 .common_btn_3 {
@@ -224,6 +224,9 @@ button {
     }
 }
 
+/* button css end */
+
+/* section heading css start */
 .tf__heading_area {
     text-align: center;
 }
@@ -278,6 +281,9 @@ button {
     display: none;
 }
 
+/* section heading css end */
+
+/* breascrumb css start */
 .tf__breadcrumb {
     background-repeat: no-repeat !important;
     background-position: center !important;
@@ -352,10 +358,10 @@ button {
     right: -10px;
 }
 
+/* breascrumb css end */
 /*==================================
     COMMON CSS END
 ==================================*/
-
 
 /*==================================
     HOME PAGE START
@@ -714,8 +720,6 @@ button {
         -o-transform: scale(1.2);
     }
 }
-
-
 
 /*-----BANNER END-----*/
 
@@ -1646,7 +1650,6 @@ button {
 
 /*----- FAQ END-----*/
 
-
 /*----- WORK START-----*/
 .tf__work {
     background-position: center !important;
@@ -2377,7 +2380,6 @@ button {
     HOME PAGE END
 ==================================*/
 
-
 /*==================================
     ABOUT US PAGE START
 ==================================*/
@@ -2517,7 +2519,6 @@ button {
     font-size: 25px;
     font-weight: 500;
     color: var(--colorPrimary);
-    /* margin-right: 50px; */
     position: relative;
     min-width: 150px;
     display: inline-block;
@@ -2972,7 +2973,6 @@ button {
     ABOUT US PAGE END
 ==================================*/
 
-
 /*==================================
     TEAM PAGE START
 ==================================*/
@@ -3134,7 +3134,6 @@ button {
     TEAM PAGE END
 ==================================*/
 
-
 /*==================================
     TEAM DETAILS START
 ==================================*/
@@ -3293,7 +3292,6 @@ button {
 /*==================================
     TEAM DETAILS END
 ==================================*/
-
 
 /*==================================
     EVENT DETAILS PAGE START
@@ -3923,15 +3921,6 @@ button {
     BLOG DETAILS PAGE END
 ==================================*/
 
-
-/*==================================
-    CONTACT PAGE START
-==================================*/
-/*==================================
-    CONTACT PAGE END
-==================================*/
-
-
 /*==================================
     ERROR PAGE START
 ==================================*/
@@ -4077,7 +4066,6 @@ button {
     -o-transition: all linear .3s;
 }
 
-
 .tf__single_services h3 {
     font-size: 22px;
     font-weight: 700;
@@ -4182,7 +4170,6 @@ button {
 /*==================================
     SERVICES PAGE END
 ==================================*/
-
 
 /*==================================
     CONTACT PAGE START
@@ -4291,7 +4278,6 @@ button {
     CONTACT PAGE END
 ==================================*/
 
-
 /*==================================
     COURSES DETAILS START
 ==================================*/
@@ -4304,7 +4290,6 @@ button {
     padding: 15px;
     background: var(--colorWhite);
     box-shadow: var(--box-shadow);
-    /* border-radius: 5px; */
     align-items: center;
     margin-bottom: 25px;
 }
@@ -4549,7 +4534,6 @@ button {
 /*==================================
     COURSES DETAILS END
 ==================================*/
-
 
 /*==================================
     HOME PAGE 2 START
@@ -4899,7 +4883,6 @@ button {
 
 /* banner 2 end */
 
-
 /* categories 2 start */
 .tf__popular_categories_2 {
     position: relative;
@@ -4948,7 +4931,6 @@ button {
 
 /* categories 2 end */
 
-
 /* about 2 start */
 .tf__home_2_about {
     background-position: center !important;
@@ -4984,7 +4966,6 @@ button {
 }
 
 /* about 2 end */
-
 
 /* popularservices 2 start */
 .tf__popular_services_2 .tf__single_services span {
@@ -5085,7 +5066,6 @@ button {
 
 /* upcoming event end */
 
-
 /* counter start */
 .tf__counter_2 {
     position: relative;
@@ -5103,7 +5083,6 @@ button {
 }
 
 /* counter end */
-
 
 /* testimonial 2 start */
 .tf__testimonial_2 {
@@ -5180,7 +5159,6 @@ button {
 
 /* testimonial 2 end */
 
-
 /* courses 2 start */
 
 .tf__courses_2 .tf__single_courses:hover .tf__single_course_header,
@@ -5197,7 +5175,6 @@ button {
 }
 
 /* courses 2 end */
-
 
 /* team 2 start */
 .tf__team_2 {
@@ -5250,7 +5227,6 @@ button {
 }
 
 /* team 2 end */
-
 
 /* blog 2 start */
 .tf__blog_2 .tf__single_blog_img {
@@ -5388,7 +5364,6 @@ button {
 
 /* blog 2 end */
 
-
 /* footer 2 start */
 .tf__footer_2 .tf__footer_overlay {
     background: #002f6cf5;
@@ -5498,8 +5473,11 @@ button {
     top: -25px;
 }
 
-/* footer 2 end */
+.tf__footer_2 .tf__copyright {
+    padding: 25px 0px 0px 0px;
+}
 
+/* footer 2 end */
 
 /* scroll button start */
 .tf__scroll_btn_2 {
@@ -5531,7 +5509,6 @@ button {
 /*==================================
     HOME PAGE 2 END
 ==================================*/
-
 
 /*==================================
     HOME PAGE 3 START
@@ -5576,7 +5553,6 @@ button {
 }
 
 /* main menu 3 end */
-
 
 /* banner 3 start */
 .tf__banner_3 {
@@ -5632,7 +5608,6 @@ button {
 
 /* banner 3 end */
 
-
 /* popular service 3 start */
 .tf__popular_services_3 {
     position: relative;
@@ -5650,7 +5625,6 @@ button {
 
 /* popular service 3 end */
 
-
 /* about 3 start */
 .about_3 {
     position: relative;
@@ -5662,7 +5636,6 @@ button {
 }
 
 /* about 3 end */
-
 
 /* study contact start */
 .tf__study_contact {
@@ -5751,7 +5724,6 @@ button {
 
 /* courses 3 end */
 
-
 /* counter 3 start */
 .tf__counter_3_area {
     background-position: center !important;
@@ -5823,7 +5795,6 @@ button {
 
 /* counter 3 end */
 
-
 /* team 3 start */
 .tf__team_3 {
     background-position: center !important;
@@ -5857,7 +5828,6 @@ button {
 }
 
 /* team 3 end */
-
 
 /* contact 3 start */
 .tf__contact_3_area {
@@ -5977,7 +5947,6 @@ button {
 
 /* contact 3 end */
 
-
 /* activities 3 start */
 .tf__activities_3 {
     background: #f2f8f8;
@@ -6013,7 +5982,6 @@ button {
 
 /* activities 3 end */
 
-
 /* blog 3 start */
 .home_3 .tf__blog_2 .tf__single_blog:hover,
 .home_3 .tf__single_blog_2:hover {
@@ -6032,17 +6000,7 @@ button {
     color: var(--colorGreen);
 }
 
-
-
-
-
-
-
-
-
-
 /* blog 3 tend */
-
 
 /* footer 3 start */
 
@@ -6095,6 +6053,10 @@ button {
 
 .home_3 .tf__scroll_btn_2 {
     background: var(--colorGreen);
+}
+
+.tf__footer_3 .tf__copyright {
+    padding-bottom: 0;
 }
 
 /*==================================

@@ -1,8 +1,4 @@
-@media (min-width: 1399.99px) {
-
-    /*==================================
-        HOME PAGE START
-    ==================================*/
+@media (min-width: 1400px) and (max-width: 1700px) {
     .tf__about::after {
         top: 250px;
     }
@@ -16,15 +12,52 @@
     }
 
     .tf__faq::before {
-        bottom: -20px;
+        bottom: -50px;
     }
 
-    /*==================================
-        HOME PAGE END
-    ==================================*/
+    .tf__banner_3 .tf__banner_text::before,
+    .tf__banner::before {
+
+        width: 80px;
+        height: 110px;
+    }
+
+    .tf__upcoming_event::after,
+    .tf__banner::after {
+        width: 150px;
+        height: 100px;
+    }
+
+    @keyframes banner_animi_1 {
+        from {
+            top: 120px;
+        }
+
+        to {
+            top: 150px;
+        }
+    }
+
+    .tf__faq_img {
+        width: 650px;
+        height: 650px;
+        left: -50px;
+    }
+
+    .tf__team_3::before,
+    .tf__team_2::before {
+        top: 0;
+    }
 
 
+    .tf__team_2::after {
+        top: 95%;
+    }
 
+    .tf__banner_3 .tf__banner_text::before {
+        width: 105px;
+        height: 100px;
+    }
 
 }
 
@@ -159,7 +192,6 @@
         HOME PAGE END
     ==================================*/
 
-
     /*==================================
         ABOUT PAGE START
     ==================================*/
@@ -198,7 +230,6 @@
     /*==================================
         ABOUT PAGE END
     ==================================*/
-
 
     /*==================================
         BLOG DETAILS START
@@ -264,7 +295,6 @@
         CONTACT END
     ==================================*/
 
-
     /*==================================
         COURSE DETAILS START
     ==================================*/
@@ -285,6 +315,9 @@
         COURSE DETAILS END
     ==================================*/
 
+    /*==================================
+        TEAM DETAILS START
+    ==================================*/
     .tf__team_details_img {
         height: 370px;
     }
@@ -299,6 +332,10 @@
     }
 
     /*==================================
+        TEAM DETAILS END
+    ==================================*/
+
+    /*==================================
         HOME PAGE 2 START
     ==================================*/
     .tf__team_3::before,
@@ -310,15 +347,71 @@
         top: 90%;
     }
 
+    @keyframes banner_animi_1 {
+        from {
+            top: 120px;
+        }
+
+        to {
+            top: 150px;
+        }
+    }
+
     /*==================================
         HOME PAGE 2 END
     ==================================*/
 
+    /*==================================
+        HOME PAGE 3 START
+    ==================================*/
+    .tf__banner_3 .tf__banner_text::before {
+        right: 40%;
+        width: 85px;
+        height: 80px;
+    }
 
+    .tf__study_contact_text {
+        padding: 160px 0px 30px 150px;
+    }
 
+    .tf__study_contact_text .text {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .tf__single_counter h4 {
+        font-size: 18px;
+    }
+
+    .tf__counter_3_area::before {
+        top: -175px;
+        right: 190px;
+        width: 120px;
+        height: 115px;
+    }
+
+    .tf__team_3::before {
+        top: 300px;
+        width: 80px;
+        height: 110px;
+    }
+
+    .tf__contact_3_area {
+        padding: 50px;
+    }
+
+    .tf__banner_3 .tf__banner_text::after {
+        top: 350px;
+    }
+
+    .tf__counter_3 p {
+        width: 80%;
+    }
+
+    /*==================================
+        HOME PAGE 3 END
+    ==================================*/
 }
-
-
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -386,8 +479,8 @@
     .tf__about::before {
         bottom: 20px;
         left: 35%;
-        width: 30px;
-        height: 55px;
+        width: 40px;
+        height: 75px;
     }
 
     .tf__faq_img {
@@ -469,7 +562,6 @@
         HOME PAGE END
     ==================================*/
 
-
     /*==================================
         ABOUT PAGE START
     ==================================*/
@@ -517,7 +609,6 @@
     /*==================================
         ABOUT PAGE END
     ==================================*/
-
 
     /*==================================
         BLOG DETAILS START
@@ -591,7 +682,6 @@
         CONTACT END
     ==================================*/
 
-
     /*==================================
         COURSE DETAILS START
     ==================================*/
@@ -617,7 +707,6 @@
         COURSE DETAILS END
     ==================================*/
 
-
     /*==================================
         EVENT DETAILS START
     ==================================*/
@@ -634,14 +723,13 @@
         max-width: 100%;
     }
 
-    /*==================================
-        EVENT DETAILS END
-    ==================================*/
-
     .tf__single_services {
         padding: 60px 30px 30px 30px;
     }
 
+    /*==================================
+        EVENT DETAILS END
+    ==================================*/
 
     /*==================================
         TEAM DETAILS START
@@ -676,7 +764,6 @@
     /*==================================
         TEAM DETAILS END
     ==================================*/
-
 
     /*==================================
         HOME PAGE 2 START
@@ -755,15 +842,74 @@
         bottom: 80px !important;
     }
 
+    @keyframes banner_animi_1 {
+        from {
+            top: 120px;
+        }
+
+        to {
+            top: 150px;
+        }
+    }
+
     /*==================================
         HOME PAGE 2 END
     ==================================*/
 
+    /*==================================
+        HOME PAGE 3 START
+    ==================================*/
+    .tf__banner_3 .tf__banner_text::before {
+        right: 40%;
+        width: 85px;
+        height: 80px;
+    }
 
+    .tf__study_contact_text {
+        padding: 160px 0px 30px 0px;
+    }
 
+    .tf__study_contact_text .text {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .tf__counter_3 .tf__counter_area ul li.tf__single_counter {
+        width: 25%;
+        text-align: left;
+    }
+
+    .tf__single_counter h4 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .tf__counter_3_area::before {
+        top: -175px;
+        right: 190px;
+        width: 120px;
+        height: 115px;
+    }
+
+    .tf__team_3::before {
+        top: 300px;
+        width: 80px;
+        height: 110px;
+    }
+
+    .tf__contact_3_area {
+        padding: 30px;
+    }
+
+    .tf__contact_3_text h2,
+    .tf__contact_3_text h2 span {
+        font-size: 35px;
+    }
+
+    /*==================================
+        HOME PAGE 3 END
+    ==================================*/
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -830,7 +976,6 @@
 
     .navbar-brand {
         max-width: 140px !important;
-        /* height: 45px !important; */
         margin-left: 15px !important;
     }
 
@@ -894,7 +1039,6 @@
         line-height: 80px;
         font-size: 30px;
     }
-
 
     /* categories end */
 
@@ -1151,7 +1295,6 @@
         ABOUT PAGE END
     ==================================*/
 
-
     /*==================================
         BLOG DETAILS START
     ==================================*/
@@ -1217,7 +1360,6 @@
         CONTACT END
     ==================================*/
 
-
     /*==================================
         COURSE DETAILS START
     ==================================*/
@@ -1241,7 +1383,6 @@
     /*==================================
         COURSE DETAILS END
     ==================================*/
-
 
     /*==================================
         EVENT DETAILS START
@@ -1278,7 +1419,6 @@
     /*==================================
         SERVICES END
     ==================================*/
-
 
     /*==================================
         TEAM DETAILS START
@@ -1321,7 +1461,6 @@
     /*==================================
         TEAM DETAILS END
     ==================================*/
-
 
     /*==================================
         TEAM HOME PAGE 2 START
@@ -1459,14 +1598,103 @@
         HOME PAGE 2 END
     ==================================*/
 
+    /*==================================
+        HOME PAGE 3 START
+    ==================================*/
+    .main_menu_3 {
+        position: fixed;
+        top: 50px;
+    }
 
+    .main_menu_3 .navbar-nav {
+        margin-top: 13px;
+    }
 
+    .home_3 .tf__banner_text {
+        margin-top: 145px;
+        margin-bottom: 260px;
+    }
 
+    .tf__banner_3 .tf__banner_text::before {
+        display: none;
+    }
 
+    .tf__study_contact_text {
+        padding: 110px 0px 30px 0px;
+    }
 
+    .tf__study_contact_text .text {
+        width: 100%;
+        padding-right: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .tf__counter_3_area {
+        padding: 40px 40px 15px 40px;
+    }
+
+    .home_3 .tf__counter_3_area::before {
+        display: none;
+    }
+
+    .tf__counter_3_area::after {
+        display: none;
+    }
+
+    .tf__counter_3 .tf__counter2_overlay {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .tf__team_3::before {
+        display: none;
+    }
+
+    .tf__contact_3_area {
+        padding: 50px;
+        background-position: center left !important;
+    }
+
+    .tf__contact_3_text h2,
+    .tf__contact_3_text h2 span {
+        font-size: 34px;
+        color: var(--colorWhite);
+    }
+
+    .tf__contact_3_text {
+        margin-bottom: 25px;
+    }
+
+    .home_3 .tf__counter_3 {
+        margin-top: -140px;
+    }
+
+    .tf__contact_3_text p {
+        width: 100%;
+    }
+
+    .tf__footer_3 .tf__footer_content,
+    .tf__footer_3 .tf__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .tf__counter_3 p {
+        width: 70%;
+    }
+
+    .tf__single_counter h4 {
+        font-size: 18px;
+    }
+
+    .tf__footer_3 .tf__copyright {
+        padding-bottom: 0;
+        margin-top: -15px;
+    }
+
+    /*==================================
+        HOME PAGE 3 END
+    ==================================*/
 }
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -1756,10 +1984,6 @@
         margin-bottom: 15px;
     }
 
-    .tf__copyright p {
-        margin-bottom: 10px;
-    }
-
     .tf__copyright ul li a {
         margin-left: 0;
         margin-right: 20px;
@@ -1776,7 +2000,6 @@
     /*==================================
         HOME PAGE END
     ==================================*/
-
 
     /*==================================
         ABOUT PAGE START
@@ -1921,7 +2144,6 @@
         BLOG DETAILS END
     ==================================*/
 
-
     /*==================================
         CONTACT START
     ==================================*/
@@ -1944,7 +2166,6 @@
     /*==================================
         CONTACT END
     ==================================*/
-
 
     /*==================================
         COURSE DETAILS START
@@ -2001,7 +2222,6 @@
         COURSE DETAILS END
     ==================================*/
 
-
     /*==================================
         ERROR PAGE START
     ==================================*/
@@ -2013,7 +2233,6 @@
     /*==================================
         ERROR PAGE END
     ==================================*/
-
 
     /*==================================
         EVENT DETAILS START
@@ -2039,7 +2258,6 @@
     /*==================================
         EVENT DETAILS END
     ==================================*/
-
 
     /*==================================
         TEAM DETAILS START
@@ -2080,17 +2298,11 @@
         TEAM DETAILS END
     ==================================*/
 
-
     /*==================================
         TEAM HOME PAGE 2 START
     ==================================*/
     .tf__topbar_right>ul {
         justify-content: center;
-    }
-
-    .tf__topbar_right .tf__other_language {
-        left: auto;
-        right: 0;
     }
 
     .main_menu_2 .navbar-brand {
@@ -2210,7 +2422,6 @@
 
     .tf__footer_2 .tf__copyright {
         margin-top: -15px;
-        padding-bottom: 0;
     }
 
     .tf__scroll_btn_2 {
@@ -2230,11 +2441,94 @@
         HOME PAGE 2 END
     ==================================*/
 
+    /*==================================
+        HOME PAGE 3 START
+    ==================================*/
+    .main_menu_3 {
+        position: fixed;
+        top: 50px;
+    }
 
+    .main_menu_3 .navbar-nav {
+        margin-top: 13px;
+    }
 
+    .home_3 .tf__banner_text {
+        margin-top: 145px;
+        margin-bottom: 260px;
+    }
+
+    .tf__banner_3 .tf__banner_text::before {
+        display: none;
+    }
+
+    .tf__study_contact_text {
+        padding: 110px 0px 30px 0px;
+    }
+
+    .tf__study_contact_text .text {
+        width: 100%;
+        padding-right: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .tf__counter_3_area {
+        padding: 40px 40px 15px 40px;
+    }
+
+    .home_3 .tf__counter_3_area::before {
+        display: none;
+    }
+
+    .tf__counter_3_area::after {
+        display: none;
+    }
+
+    .tf__counter_3 .tf__counter_area ul li.tf__single_counter {
+        width: 100%;
+    }
+
+    .tf__counter_3 .tf__counter2_overlay {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .tf__team_3::before {
+        display: none;
+    }
+
+    .tf__contact_3_area {
+        padding: 48px;
+        background-position: center left !important;
+    }
+
+    .tf__contact_3_text h2,
+    .tf__contact_3_text h2 span {
+        font-size: 25px;
+        color: var(--colorWhite);
+    }
+
+    .tf__contact_3_text {
+        margin-bottom: 25px;
+    }
+
+    .home_3 .tf__counter_3 {
+        margin-top: -140px;
+    }
+
+    .tf__contact_3_text p {
+        width: 100%;
+    }
+
+    .tf__footer_3 .tf__footer_content,
+    .tf__footer_3 .tf__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    /*==================================
+        HOME PAGE 3 END
+    ==================================*/
 }
-
-
 
 @media (max-width: 575.99px) {
 
@@ -2843,7 +3137,6 @@
         BLOG DETAILS END
     ==================================*/
 
-
     /*==================================
         CONTACT START
     ==================================*/
@@ -2888,7 +3181,6 @@
     /*==================================
         CONTACT END
     ==================================*/
-
 
     /*==================================
         COURSE DETAILS START
@@ -2950,7 +3242,6 @@
         COURSE DETAILS END
     ==================================*/
 
-
     /*==================================
         ERROR PAGE START
     ==================================*/
@@ -2966,7 +3257,6 @@
     /*==================================
         ERROR PAGE END
     ==================================*/
-
 
     /*==================================
         EVENT DETAILS START
@@ -3002,7 +3292,6 @@
         EVENT DETAILS END
     ==================================*/
 
-
     /*==================================
         SERVICES START
     ==================================*/
@@ -3018,7 +3307,6 @@
     /*==================================
         SERVICES END
     ==================================*/
-
 
     /*==================================
         TEAM DETAILS START
@@ -3062,7 +3350,6 @@
     /*==================================
         TEAM DETAILS END
     ==================================*/
-
 
     /*==================================
         HOME PAGE 2 START
@@ -3192,7 +3479,6 @@
 
     .tf__footer_2 .tf__copyright {
         margin-top: -15px;
-        padding-bottom: 0;
     }
 
     .tf__scroll_btn_2 {
@@ -3212,9 +3498,90 @@
         HOME PAGE 2 END
     ==================================*/
 
+    /*==================================
+        HOME PAGE 3 START
+    ==================================*/
+    .main_menu_3 {
+        position: fixed;
+        top: 50px;
+    }
 
+    .main_menu_3 .navbar-nav {
+        margin-top: 7px;
+    }
 
+    .home_3 .tf__banner_text {
+        margin-top: 145px;
+        margin-bottom: 260px;
+    }
 
+    .tf__banner_3 .tf__banner_text::before {
+        display: none;
+    }
 
+    .tf__study_contact_text {
+        padding: 110px 0px 30px 0px;
+    }
 
+    .tf__study_contact_text .text {
+        width: 100%;
+        padding-right: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .tf__counter_3_area {
+        padding: 20px;
+    }
+
+    .home_3 .tf__counter_3_area::before {
+        display: none;
+    }
+
+    .tf__counter_3_area::after {
+        display: none;
+    }
+
+    .tf__counter_3 .tf__counter_area ul li.tf__single_counter {
+        width: 100%;
+    }
+
+    .tf__counter_3 .tf__counter2_overlay {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .tf__team_3::before {
+        display: none;
+    }
+
+    .tf__contact_3_area {
+        padding: 20px;
+        background-position: center left !important;
+    }
+
+    .tf__contact_3_text h2,
+    .tf__contact_3_text h2 span {
+        font-size: 25px;
+    }
+
+    .tf__contact_3_text {
+        margin-bottom: 25px;
+    }
+
+    .home_3 .tf__counter_3 {
+        margin-top: -140px;
+    }
+
+    .tf__contact_3_text p {
+        width: 100%;
+    }
+
+    .tf__footer_3 .tf__footer_content,
+    .tf__footer_3 .tf__footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    /*==================================
+        HOME PAGE 3 END
+    ==================================*/
 }

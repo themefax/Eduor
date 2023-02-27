@@ -1,6 +1,7 @@
 $(function () {
     "use strict";
 
+
     //======MENU FIX JS======
     if ($('.main_menu').offset() != undefined) {
         $(window).bind('scroll', function () {
@@ -65,7 +66,7 @@ $(function () {
     $('.work_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -111,7 +112,7 @@ $(function () {
     $('.testimonial_slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -155,7 +156,7 @@ $(function () {
     $('.blog_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: true,
         arrows: false,
@@ -245,8 +246,6 @@ $(function () {
             scrollTop: 0,
         }, 300);
     });
-
-
     $(window).on('scroll', function () {
         var scrolling = $(this).scrollTop();
 
