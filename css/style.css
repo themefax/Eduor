@@ -1,3 +1,37 @@
+/* 
+***************************************
+Template Name: Eduor || Online Education (15 Page) Learning HTML Template
+Author: ThemeAction 
+Author Email: codecanion@gmail.com
+Version: 1.0
+Description: Eduor is a Online Education HTML Template. It is designed for online education learning you are a you can discover many new awesome features in this template. Best for e-Learning, online courses, Online academy, Online Institute, Online School, College, University, and Online Instructor Websites. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones and small mobile devices.
+***************************************
+
+
+Table of content (css)
+===================================
+01. GLOBAL CSS
+02. HOME PAGE (index.html)
+03. ABOUT US PAGE
+04. BLOG DETAILS PAGE
+05. BLOG PAGE
+06. CONTACT PAGE
+07. COUESES DETAILS PAGE
+08. COURSES PAGE
+09. ERROR/404 PAGE
+10. EVENT DETAILS PAGE
+11. EVENT PAGE
+12. HOME PAGE 2 (index_2.html)
+13. HOME PAGE 3 (index_3.html)
+14. SERVICES PAGE
+15. TEAM DETAILS PAGE
+16. TEAM PAGE
+*/
+
+/*==================================
+    GLOBAL CSS START
+==================================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -92,9 +126,6 @@ button {
     --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-/*==================================
-    COMMON CSS START
-==================================*/
 /* button css atart */
 .common_btn,
 .common_btn_2,
@@ -360,7 +391,7 @@ button {
 
 /* breascrumb css end */
 /*==================================
-    COMMON CSS END
+    GLOBAL CSS END
 ==================================*/
 
 /*==================================
@@ -5385,7 +5416,7 @@ button {
     border: 10px solid var(--colorWhite);
     text-align: center;
     position: relative;
-    bottom: -135px;
+    bottom: -140px;
     z-index: 2;
     border-radius: 50px;
     -webkit-border-radius: 50px;

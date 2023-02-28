@@ -184,6 +184,11 @@
         border-bottom-left-radius: 35px;
     }
 
+    .tf__activities_slider_area .tf__activities_item::after {
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+
     .tf__scroll_btn {
         right: 0;
     }
@@ -357,6 +362,11 @@
         }
     }
 
+    .tf__scroll_btn_2 {
+        right: 10px;
+    }
+
+
     /*==================================
         HOME PAGE 2 END
     ==================================*/
@@ -528,12 +538,6 @@
 
     .tf__activities_item h3 {
         font-size: 18px;
-    }
-
-    .tf__activities_item {
-        padding: 25px;
-        border-top-right-radius: 35px;
-        border-bottom-left-radius: 35px;
     }
 
     .tf__activities_img {
@@ -850,6 +854,11 @@
         to {
             top: 150px;
         }
+    }
+
+    .tf__testimonial_2 .tf__single_counter h4 {
+        text-align: center;
+        font-size: 22px;
     }
 
     /*==================================
@@ -1526,7 +1535,7 @@
     }
 
     .tf__banner_text {
-        padding-top: 23px;
+        padding-top: 65px;
         padding-bottom: 0;
     }
 
@@ -1592,6 +1601,16 @@
 
     .tf__home_2_about_text {
         margin-top: 25px;
+    }
+
+    .tf__banner_2 {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .tf__banner_2 .tf__banner_text {
+        padding-top: 158px;
+        padding-bottom: 203px;
     }
 
     /*==================================
@@ -1809,10 +1828,6 @@
         background-position: center left !important;
     }
 
-    .tf__banner_text {
-        padding-top: 0;
-    }
-
     .tf__banner_text ul li .play_btn {
         margin-left: 30px;
     }
@@ -1954,6 +1969,11 @@
 
     .tf__activities_item {
         padding: 25px;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+
+    .tf__activities_slider_area .tf__activities_item::after {
         border-top-right-radius: 35px;
         border-bottom-left-radius: 35px;
     }
@@ -2361,8 +2381,8 @@
     }
 
     .tf__banner_text {
-        padding-top: 23px;
-        padding-bottom: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .tf__home_2_about_img {
@@ -2437,6 +2457,16 @@
         margin-top: 25px;
     }
 
+    .tf__banner_2 {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .tf__banner_2 .tf__banner_text {
+        padding-top: 158px;
+        padding-bottom: 203px;
+    }
+
     /*==================================
         HOME PAGE 2 END
     ==================================*/
@@ -2454,8 +2484,8 @@
     }
 
     .home_3 .tf__banner_text {
-        margin-top: 145px;
-        margin-bottom: 260px;
+        margin-top: 10px;
+        margin-bottom: 57px;
     }
 
     .tf__banner_3 .tf__banner_text::before {
@@ -2644,10 +2674,6 @@
         height: auto;
         padding: 170px 0px 100px 0px;
         background-position: center left !important;
-    }
-
-    .tf__banner_text {
-        padding-top: 0;
     }
 
     .tf__banner_text ul li .play_btn {
@@ -3048,6 +3074,10 @@
     .tf__details_quot_text {
         padding: 20px;
         border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
     }
 
     .tf__details_quot_text h4 {
@@ -3419,8 +3449,8 @@
     }
 
     .tf__banner_text {
-        padding-top: 23px;
-        padding-bottom: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .tf__home_2_about_img {
@@ -3494,6 +3524,16 @@
         margin-top: 25px;
     }
 
+    .tf__banner_2 {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .tf__banner_2 .tf__banner_text {
+        padding-top: 158px;
+        padding-bottom: 203px;
+    }
+
     /*==================================
         HOME PAGE 2 END
     ==================================*/
@@ -3511,8 +3551,8 @@
     }
 
     .home_3 .tf__banner_text {
-        margin-top: 145px;
-        margin-bottom: 260px;
+        margin-top: 10px;
+        margin-bottom: 57px;
     }
 
     .tf__banner_3 .tf__banner_text::before {
