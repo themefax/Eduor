@@ -2535,6 +2535,8 @@ button {
     border-radius: 70px;
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .tf__about_us_counter p {
