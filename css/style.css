@@ -1,13 +1,13 @@
 /* 
 ***************************************
-Template Name: Eduor || Online Education (15 Page) Learning HTML Template
-Author: ThemeAction 
-Author Email: codecanion@gmail.com
+Template Name: Eduor || Online Education Learning HTML Template
+Author: themefaxbd 
+Author Email: themefaxbd@gmail.com
 Version: 1.0
 Description: Eduor is a Online Education HTML Template. It is designed for online education learning you are a you can discover many new awesome features in this template. Best for e-Learning, online courses, Online academy, Online Institute, Online School, College, University, and Online Instructor Websites. It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones and small mobile devices.
 ***************************************
 
-Table of content (css)
+CSS INDEX
 ===================================
 01. GLOBAL CSS 
 02. HOME PAGE (index.html)
@@ -1229,6 +1229,9 @@ button {
 /*----- EVENT START-----*/
 .tf__single_event {
     background: var(--colorWhite);
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-radius: 5px;
     margin-top: 25px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -1307,7 +1310,7 @@ button {
 
 .tf__single_event_text {
     padding: 15px 30px 20px 30px;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     overflow: hidden;
     border-top: 0;
     transition: all linear .3s;
@@ -2073,8 +2076,10 @@ button {
 
 /*----- BLOG START-----*/
 .tf__single_blog {
-    padding: 10px;
+    /* padding: 10px; */
     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
     margin-top: 25px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -2098,7 +2103,7 @@ button {
 }
 
 .tf__single_blog_text {
-    padding: 30px 20px 20px 20px;
+    padding: 30px 25px 25px 25px;
 }
 
 .tf__single_blog_text .category {
@@ -2788,6 +2793,8 @@ button {
 .tf__single_courses {
     margin-top: 25px;
     border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -2799,7 +2806,7 @@ button {
     height: 280px;
     position: relative;
     overflow: hidden;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .tf__single_courses_img img {
@@ -2886,7 +2893,7 @@ button {
 }
 
 .tf__single_courses_text {
-    padding: 15px 30px 30px 30px;
+    padding: 15px 25px 25px 25px;
 }
 
 .tf__single_courses_text .title {
@@ -3524,10 +3531,6 @@ button {
 .tf__contact_form form input,
 .tf__contact_form form textarea {
     margin-bottom: 25px;
-}
-
-.tf__contact_form form button {
-    margin-top: 20px;
 }
 
 .tf__contact_text {
